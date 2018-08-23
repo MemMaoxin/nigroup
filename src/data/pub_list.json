@@ -1,0 +1,866 @@
+{
+    "eighteen": [
+        {
+            "author":
+                "M. Qin, J. Cao, T. Zhang, J. Mai, T. K. Lau, S. Zhou, Y. Zhou, J. Wang, Y. J. Hsu, N. Zhao, J. Xu, X. Zhan, and X. Lu*",
+            "title":
+                "Fused‐Ring Electron Acceptor ITIC‐Th: A Novel Stabilizer for Halide Perovskite Precursor Solution",
+            "url":
+                "https://onlinelibrary.wiley.com/doi/abs/10.1002/aenm.201703399",
+            "press": "Adv. Energy Mater.",
+            "issue": "1703399",
+            "year": "2018"
+        },
+        {
+            "author": "H. Xu, L. Yin, C. Liu, X. Sheng*, N. Zhao*",
+            "title": "Recent Advances in Biointegrated Optoelectronic Devices",
+            "url": "",
+            "press": "Adv. Mater. ",
+            "issue": "Accepted",
+            "year": "2018"
+        },
+        {
+            "author":
+                "Jie Cao, Shu XiaTao, Peter A. Bobbert, Ching‐Ping Wong*, Ni Zhao*,",
+            "title":
+                "Interstitial Occupancy by Extrinsic Alkali Cations in Perovskites and Its Impact on Ion Migration",
+            "url":
+                "https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.201707350",
+            "press": "Adv. Mater.",
+            "issue": "1707350",
+            "year": "2018"
+        },
+        {
+            "author": "Y. Gao, G. Zhou, N. Zhao, H. Tsang and C. Shu*",
+            "title":
+                "Textile‐Enabled Highly Reproducible Flexible Pressure Sensors for Cardiovascular Monitoring",
+            "url":
+                "https://onlinelibrary.wiley.com/doi/abs/10.1002/admt.201700222",
+            "press": "Adv. Mater. Technol.",
+            "issue": "3, 1700222",
+            "year": "2018"
+        },
+        {
+            "author":
+                "N. Q. Luo, J. Zhang, X. R. Ding, Z. Q. Zhou, Q. Zhang, Y. T. Zhang, S.-C. Chen, J. L. Hu, and N. Zhao",
+            "title":
+                "High-performance chemical vapor deposited graphene-on-silicon nitride waveguide photodetectorsLiquid-solid Dual-gate Organic Transistors with Tunable Threshold Voltage for Cell Sensing",
+            "url":
+                "https://www.osapublishing.org/ol/abstract.cfm?uri=ol-43-6-1399",
+            "press": "Opt. Lett.",
+            "issue": "43(6), 1399-1402",
+            "year": "2018"
+        }
+    ],
+    "seventeen": [
+        {
+            "author":
+                "Mengyu Chen, Haipeng Lu, Nema M. Abdelazim, Ye Zhu, Zhen Wang, Wei Ren, Stephen V. Kershaw, Andrey L. Rogach, and Ni Zhao*,",
+            "title":
+                "Mercury Telluride Quantum Dot Based Phototransistor Enabling High-Sensitivity Room-Temperature Photodetection at 2000 nm",
+            "url": "https://pubs.acs.org/doi/10.1021/acsnano.7b00972",
+            "press": "ACS Nano",
+            "issue": "11 (6), 5614-5622",
+            "year": "2017"
+        },
+        {
+            "author":
+                "Huihua Xu, Jing Liu, Jie Zhang, Guodong Zhou, Ningqi Luo, Ni Zhao*,",
+            "title":
+                "Flexible Organic/Inorganic Hybrid Near‐Infrared Photoplethysmogram Sensor for Cardiovascular Monitoring",
+            "url":
+                "https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201700975",
+            "press": "Adv. Mater.",
+            "issue": "29, 1700975",
+            "year": "2017"
+        },
+        {
+            "author":
+                "Z. F. Chen, Z. Wang, X. M. Li, Y. X. Lin, N. Q. Luo, M. Z. Long, N. Zhao, and J. B. Xu",
+            "title":
+                "Flexible Piezoelectric-Induced Pressure Sensors for Static Measurements Based on Nanowires/Graphene Heterostructures",
+            "url": "https://pubs.acs.org/doi/abs/10.1021/acsnano.6b08027",
+            "press": "ACS Nano",
+            "issue": "11, 4507–4513",
+            "year": "2017"
+        },
+        {
+            "author":
+                "Ningqi Luo, Yan Huang, Jing Liu, Shih-Chi Chen, Ching Ping Wong, and Ni Zhao*,",
+            "title":
+                "Hollow‐Structured Graphene–Silicone‐Composite‐Based Piezoresistive Sensors: Decoupled Property Tuning and Bending Reliability",
+            "url":
+                "https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201702675",
+            "press": "Adv. Mater.",
+            "issue": "29, 1702675",
+            "year": "2017"
+        },
+        {
+            "author":
+                "J. Mai, H. Lu, T. -K. Lau, S. -H. Peng, C. -S. Hsu, W. Hua,  N. Zhao, X. Xiao, and X. Lu*,",
+            "title":
+                "High efficiency ternary organic solar cell with morphology-compatible polymers",
+            "url":
+                "http://pubs.rsc.org/en/content/articlelanding/2017/ta/c7ta00292k#!divAbstract",
+            "press": "J. Mater. Chem. A ",
+            "issue": "5, 11739-11745",
+            "year": "2017"
+        },
+        {
+            "author":
+                "Abdelazim, N. M., Zhu, Q., Xiong, Y., Zhu, Y., Chen, M., Zhao, N., Kershaw, S. V., Rogach, A. L.",
+            "title":
+                "Room Temperature Synthesis of HgTe Quantum Dots in an Aprotic Solvent Realizing High Photoluminescence Quantum Yield in the Infrared",
+            "url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.7b02637",
+            "press": "Chem. Mater.",
+            "issue": "29, 7859−7867",
+            "year": "2017"
+        },
+        {
+            "author":
+                "J. Cao, H. Yu, S. Zhou, M. Qin, T. K. Lau, X. Lu, N Zhao*, and C. -P. Wong*",
+            "title":
+                " Low-temperature solution-processed NiOx films for air-stable perovskite solar cells",
+            "url":
+                "http://pubs.rsc.org/-/content/articlelanding/2017/ta/c7ta02228j/unauth#!divAbstract",
+            "press": "J. Mater. Chem. A",
+            "issue": "5, 11071-11077 ",
+            "year": "2017"
+        },
+        {
+            "author":
+                "Y. Zhang, J. Li, Rui Li, D.T. Sbircea, A. Giovannitti, J. Xu, H. Xu, G. Zhou, L. Bian, I. McCulloch, and N. Zhao*",
+            "title":
+                "Liquid–Solid Dual-Gate Organic Transistors with Tunable Threshold Voltage for Cell Sensing",
+            "url": "https://pubs.acs.org/doi/abs/10.1021/acsami.7b09384",
+            "press": "ACS Appl. Mater. Interfaces",
+            "issue": "9 (44), 38687–38694 ",
+            "year": "2017"
+        },
+        {
+            "author": "X Ding, BP Yan, YT Zhang, J Liu, N Zhao, HK Tsang",
+            "title":
+                "Pulse Transit Time Based Continuous Cuffless Blood Pressure Estimation: A New Extension and A Comprehensive Evaluation",
+            "url": "https://www.nature.com/articles/s41598-017-11507-3",
+            "press": "Sci. Rep.",
+            "issue": "11554",
+            "year": "2017"
+        }
+    ],
+    "sixteen": [
+        {
+            "author":
+                "Feng Wang, Wei Geng, Yang Zhou, Hong-Hua Fang, Chuan-Jia Tong, Maria Antonietta Loi, Li-Min Liu N. Zhao*,",
+            "title":
+                "Phenylalkylamine Passivation of Organolead Halide Perovskites Enabling High-Efficiency and Air-Stable Photovoltaic Cells",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/adma.201603062/full",
+            "press": "Advanced Materials,",
+            "issue": "28, 9986-9992",
+            "year": "2016"
+        },
+        {
+            "author": "H. Yu, H. Lu, F. Xie, S. Zhou, N. Zhao*,",
+            "title":
+                "Native Defect Induced Hysteresis Behavior in Organolead Iodide Perovskite Solar Cells",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/adfm.201504997/abstract",
+            "press": "Adv. Funct. Mater.",
+            "issue": "26, 1411–1419",
+            "year": "2016"
+        },
+        {
+            "author":
+                "J. Cao, F. Wang, H. Yu, Y. Zhou, H. Lu, N. Zhao*, and C. -P. Wong*",
+            "title":
+                "Porous PbI2 films for the fabrication of efficient, stable perovskite solar cells via sequential deposition",
+            "url":
+                "http://pubs.rsc.org/-/content/articlehtml/2016/ta/c6ta03121h",
+            "press": "J. Mater. Chem. A",
+            "issue": "4, 10223-10230",
+            "year": "2016"
+        },
+        {
+            "author":
+                "J. Mai, T. -K. Lau, J. Li, S. -H. Peng, C. -S. Hsu, U. -S. Jeng, J. Zeng, N. Zhao, X. Xiao, and X. Lu*,",
+            "title":
+                "Understanding morphology compatibility for high-performance ternary organic solar cells",
+            "url": "http://pubs.acs.org/doi/abs/10.1021/acs.chemmater.6b02264",
+            "press": "Chem. Mater.",
+            "issue": "28 (17), pp 6186–6195",
+            "year": "2016"
+        },
+        {
+            "author": "L. Li, F. Wang, X. Wu, H. Yu, S. Zhou, and N. Zhao*,",
+            "title":
+                "Carrier-activated polarization in organometal halide perovskites",
+            "url": "http://pubs.acs.org/doi/abs/10.1021/acs.jpcc.5b11627 ",
+            "press": "J. Phys. Chem. C",
+            "issue": "120 (5), pp 2536–2541",
+            "year": "2016"
+        },
+        {
+            "author":
+                "X. R. Ding, N. Zhao, G. Z. Yang, R. I. Pettigrew, B. Lo, F. Miao, Y. Li, J. Liu, Y. T. Zhang,",
+            "title":
+                "Continuous Blood Pressure Measurement From Invasive to Unobtrusive: Celebration of 200th Birth Anniversary of Carl Ludwig",
+            "url": " http://ieeexplore.ieee.org/document/7676313/",
+            "press": " IEEE J. Biomed. Health Inform.",
+            "issue": "20(6), 1455-1465",
+            "year": "2016"
+        },
+        {
+            "author":
+                "J. Liu, Bryan Yan, W. X. Dai, X. R. Ding, Y.T. Zhang, N. Zhao*,",
+            "title":
+                "Multi-wavelength photoplethysmography method for skin arterial pulse extraction",
+            "url":
+                "https://www.osapublishing.org/boe/abstract.cfm?uri=boe-7-10-4313",
+            "press": "Biomedical Optics Express ",
+            "issue": " 7, 4313-4326",
+            "year": "2016"
+        },
+        {
+            "author":
+                "W. X. Dai, Y. T. Zhang, J. Liu, X. R. Ding and N. Zhao*,",
+            "title":
+                "Dual-modality arterial pulse monitoring system for continuous blood pressure measurement",
+            "url": "http://ieeexplore.ieee.org/abstract/document/7592039/",
+            "press": "38th EMBC",
+            "issue": "5773-5776",
+            "year": "2016"
+        },
+        {
+            "author":
+                "J. Liu, Y. T. Zhang, X. R. Ding, W. X. Dai and N. Zhao*,",
+            "title":
+                "A preliminary study on multi-wavelength PPG based pulse transit time detection for cuffless blood pressure measurement",
+            "url": "http://ieeexplore.ieee.org/abstract/document/7590777/",
+            "press": "38th EMBC,",
+            "issue": "615-618",
+            "year": "2016"
+        },
+        {
+            "author":
+                "Hong-Hua Fang, Feng Wang, Sampson Adjokatse,   N. Zhao*, Maria Antonietta Loi,",
+            "title":
+                "Photoluminescence Enhancement in Formamidinium Lead Iodide Thin Films",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/adfm.201600715/abstract",
+            "press": "Advanced Functional Materials",
+            "issue": " 26, 4653-4659",
+            "year": "2016"
+        },
+        {
+            "author":
+                "Feng Wang, Jiale Ma, Fangyan Xie, Linkai Li, Jian Chen, Jun Fan, N. Zhao*,",
+            "title":
+                "Organic Cation-Dependent Degradation Mechanism of Organotin Halide Perovskites",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/adfm.201505127/abstract",
+            "press": "Advanced Functional Materials,",
+            "issue": " 26, 3417-3423",
+            "year": "2016"
+        },
+        {
+            "author":
+                "Hong-Hua Fang, Feng Wang, Sampson Adjokatse, N. Zhao, Jacky Even, Maria Antonietta Loi,",
+            "title":
+                "Photoexcitation dynamics in solution-processed formamidinium lead iodide perovskite thin films for solar cell applications",
+            "url":
+                "http://www.nature.com/lsa/journal/v5/n4/full/lsa201656a.html",
+            "press": "Light: Science &amp; Applications,",
+            "issue": " 5,",
+            "year": "2016"
+        },
+        {
+            "author":
+                "Yang Zhou, Feng Wang, Hong-Hua Fang, Maria Antonietta Loi, Fang-Yan Xie, N. Zhao*, Ching-Ping Wong*",
+            "title":
+                "Distribution of bromine in mixed iodide-bromide organolead perovskites and its impact on photovoltaic performance",
+            "url":
+                "http://pubs.rsc.org/en/Content/ArticleLanding/2016/TA/C6TA07647E#!divAbstract",
+            "press": "Journal of Materials Chemistry A",
+            "issue": " 4, 16191-16197",
+            "year": "2016"
+        },
+        {
+            "author": "J. Chen, J. Xu, S. Zhou,  N. Zhao*, C.-P. Wong*,",
+            "title":
+                "Amorphous Nanostructured FeOOH and Co-Ni Double Hydroxides for High-Performance Aqueous Asymmetric Supercapacitors",
+            "url":
+                "http://www.sciencedirect.com/science/article/pii/S2211285515005066 ",
+            "press": "Nano Energy,",
+            "issue": " 21, 145-153",
+            "year": "2016"
+        },
+        {
+            "author": "J. Chen, J. Xu, S. Zhou,  N. Zhao*, C.-P. Wong*,",
+            "title":
+                "Nitrogen-doped Hierarchically Porous Carbon Foam: A Free-Standing Electrode and Mechanical Support for High-Performance Supercapacitors",
+            "url":
+                "http://www.sciencedirect.com/science/article/pii/S2211285516300921 ",
+            "press": "Nano Energy,",
+            "issue": " 25, 193-202 ",
+            "year": "2016"
+        },
+        {
+            "author": "S. Zhou, L. Li, H. Yu, J. Chen, C.-P. Wong*,  N. Zhao*,",
+            "title":
+                "Thin-Film Electrochemical Capacitors based on Organolead Triiodide Perovskites",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/aelm.201600114/full ",
+            "press": "Adv. Electron. Mater.",
+            "issue": ", 1600114",
+            "year": "2016"
+        },
+        {
+            "author":
+                "N. Q. Luo, W. X Dai, C. L. Li, Z. Q  Zhou, L. Y Lu, Carmen C. Y. Poon, Shih-Chi Chen, Yuanting Zhang, and N. Zhao*,",
+            "title":
+                "Flexible piezoresistive sensor patch enabling  ultra-low power cuffless blood pressure measurement",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/adfm.201504560/abstract",
+            "press": "Adv. Funct. Mater.",
+            "issue": "26, 1178–1187",
+            "year": "2016"
+        },
+        {
+            "author":
+                "X. Xu, Y. Yao, B. Shan, X. Gu, D. Liu, J. Liu, J. Xu,  N. Zhao, W. Hu, Q. Miao*,",
+            "title":
+                "Electron Mobility Exceeding 10 cm2V-1s-1 and Band-like Charge Transport in Solution-Processed n-Channel Organic Thin-Film Transistors",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/adma.201601171/full ",
+            "press": " Adv. Mater. ",
+            "issue": " 28, 5276-5283",
+            "year": "2016"
+        },
+        {
+            "author":
+                "H. Xu, Q. Zhu, T. Wu, W. Chen, G. Zhou, J. Li, H. Zhang,   N. Zhao,",
+            "title":
+                "An Organic Water-gated Ambipolar Transistor with A Bulk Heterojunction Active Layer for Stable and Tunable photodetection.",
+            "url": "http://aip.scitation.org/doi/abs/10.1063/1.4968580 ",
+            "press": "Appl. Phys. Lett.",
+            "issue": "109, 213301 ",
+            "year": "2016"
+        }
+    ],
+    "fifteen": [
+        {
+            "author": "X. Zhou, H. Xu, J. Cheng, N. Zhao*, S. Chen*",
+            "title":
+                "Flexure-based Roll-to-roll Platform: A Practical Solution for Realizing Large-area Microcontact Printing",
+            "url": "http://www.nature.com/articles/srep10402 ",
+            "press": "Sci. Rep.",
+            "issue": " 5, 10402",
+            "year": "2015"
+        },
+        {
+            "author": "J. Chen, J. Xu, S. Zhou,  N. Zhao*, C.-P. Wong*",
+            "title":
+                "Facile and Scalable Fabrication of Three-dimensional Cu(OH)2 Nanoporous Nanorods for Solid-State Supercapacitors",
+            "url":
+                "http://pubs.rsc.org/en/Content/ArticleLanding/2015/TA/C5TA04164C#!divAbstract ",
+            "press": "J. Mater. Chem. A, ",
+            "issue": " 3, 17385-17391",
+            "year": "2015"
+        },
+        {
+            "author": "J. Chen, J. Xu, S. Zhou,  N. Zhao*, C.-P. Wong*,",
+            "title":
+                "Templated-grown Graphene/Porous Fe2O3 Nanocomposite: A High-Performance Anode Material for Pseudocapacitors.",
+            "url":
+                "http://www.sciencedirect.com/science/article/pii/S2211285515002372 ",
+            "press": "Nano Energy, ",
+            "issue": " 15, 719-728",
+            "year": "2015"
+        },
+        {
+            "author": "H. Xu, T. Xiao, J. Li, J. Mai, X. Lu,  N. Zhao*,",
+            "title":
+                "In Situ Probing of the Charge Transport Process at the Polymer/Fullerene Heterojunction Interface",
+            "url": "http://pubs.acs.org/doi/abs/10.1021/acs.jpcc.5b07810 ",
+            "press": "J. Phys. Chem. C,",
+            "issue": " 119, 25598-25605",
+            "year": "2015"
+        },
+        {
+            "author":
+                "X. Xu, T. Xiao, X. Gu, X. Yang, S. V Kershaw,  N. Zhao, J. Xu, Q. Miao*,",
+            "title":
+                "Solution-Processed Ambipolar Organic Thin-Film Transistors by Blending p- and n- Semiconductors: Solid Solution verses Microphase Separation",
+            "url": "http://pubs.acs.org/doi/abs/10.1021/acsami.5b01172 ",
+            "press": "ACS Appl. Mater. Interface,",
+            "issue": "7, 28019-28026",
+            "year": "2015"
+        },
+        {
+            "author":
+                "J. Mai, T. -K. Lau, T. Xiao, C. -J. Su, U. Jeng,   N. Zhao X. Xiao, and X. Lu*,",
+            "title":
+                "Ternary morphology facilitated thick-film organic solar cell",
+            "url":
+                " http://pubs.rsc.org/is/content/articlelanding/2015/ra/c5ra17268c/unauth#!divAbstract ",
+            "press": "RSC Adv.",
+            "issue": "5, 88500-88507",
+            "year": "2015"
+        },
+
+        {
+            "author":
+                "S. Zhou, J. L. Xu, Y. B. Xiao, N. Zhao*, and C. P. Wang*,",
+            "title":
+                "Low-temperature Ni particle-templated chemical vapor deposition growth of curved graphene for supercapacitor applications",
+            "url":
+                "http://www.sciencedirect.com/science/article/pii/S2211285515001068",
+            "press": "Nano Energy",
+            "issue": "",
+            "year": "2015"
+        },
+        {
+            "author": "F. Wang, H. Yu, H. H. Xu, and N. Zhao*,",
+            "title":
+                "HPbI3: A new precursor compound for highly efficient solution-processed perovskite solar cells",
+            "url": "http://goo.gl/L8QFsw",
+            "press": "Adv. Funct. Mater.",
+            "issue": "13,458-466",
+            "year": "2015"
+        },
+        {
+            "author":
+                "X. J. Wu, H. Yu, L. K. Li, F. Wang, H. H. Xu, and N. Zhao*,",
+            "title":
+                "Composition-dependent electric dipole moment in organometal halide perovskites",
+            "url": "https://pubs.acs.org/doi/abs/10.1021/jp511314a",
+            "press": " J. Phys. Chem. C",
+            "issue": "10,1002",
+            "year": "2015"
+        },
+        {
+            "author":
+                "X. J. Wu, H. H. Xu, Y. Wang, A. L. Rogach, Y. Z. Shen, and N. Zhao*,",
+            "title":
+                "General  observation of the memory effect in metal-insulator-ITO structures due to  indium diffusion.",
+            "url": "http://iopscience.iop.org/0268-1242/30/7/074002/media",
+            "press": "Semiconductor Science and Technology",
+            "issue": ",30(7),",
+            "year": "2015"
+        },
+        {
+            "author":
+                "Y. Bai, H. Yu, Z. Zhu, K. Jiang, T. Zhang, N. Zhao*, S. Yang*, H. Yan*,",
+            "title":
+                "High performance inverted structure perovskite solar cells based on a PCBM: polystyrene blend electron transport layer",
+            "url":
+                "http://pubs.rsc.org/en/content/articlehtml/2015/ta/c4ta05309e",
+            "press": " J. Mater. Chem. A",
+            "issue": ",3, 9098-9102",
+            "year": "2015"
+        }
+    ],
+    "fourteen": [
+        {
+            "author":
+                "S. Zhou, Y. Su, Y. Xiao, N. Zhao*, J. Xu, and C. P. Wong,",
+            "title":
+                "Low-voltage graphene field-effect transistors based on octadecylphosphonic acid modified solution-processed high- k dielectrics",
+            "url": "http://www.ncbi.nlm.nih.gov/pubmed/24915783",
+            "press": "Nanotechnology",
+            "issue": "25(26),265201",
+            "year": "2014"
+        },
+        {
+            "author":
+                "H. Yu, F. Wang, F. Y. Xie, W. W. Li, J. Chen. and N. Zhao*,",
+            "title":
+                "The role of chlorine in the formation process of \"CH3NH3PbI3-xClx\" Perovskite",
+            "url":
+                "https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.201401872",
+            "press": "Adv. Funct. Mater.",
+            "issue": " 24, 7102-7108",
+            "year": "2014"
+        },
+        {
+            "author":
+                "M. Y. Chen, L. Shao, S. V. Kershaw, H. Yu, J. F. Wang, A. L. Rogach, and N. Zhao*,",
+            "title":
+                "Photocurrent Enhancement of HgTe Quantum Dot Photodiodes by Plasmonic Gold Nanorod Structures",
+            "url": "http://goo.gl/4BrDuv",
+            "press": "ACS Nano",
+            "issue": ", 8, 8208",
+            "year": "2014"
+        },
+        {
+            "author":
+                "L.Ye, H. H. Xu, H. Yu, W. Y. Xu, H. Li, H. Wang, N. Zhao*,",
+            "title":
+                "Ternary bulk heterojunction photovoltaic cells composed of small molecule donor additive as cascade material",
+            "url": "https://pubs.acs.org/doi/abs/10.1021/jp504365y",
+            "press": "J. Phys. Chem. C",
+            "issue": "118 (35), pp 20094–20099",
+            "year": "2014"
+        },
+        {
+            "author":
+                "N. Q. Luo, J. Ding, N. Zhao; H. K. Leung, and C. Y. Poon.",
+            "title":
+                "Mobile Health: Design of Flexible and Stretchable Electrophysiological Sensors for Wearable Healthcare Systems",
+            "url": "http://goo.gl/9edqrg",
+            "press": "IEEE Eng. Med. Biol. Soc.",
+            "issue": ", p.87-91. Zurich",
+            "year": "2014"
+        },
+        {
+            "author":
+                "M. Y. Chen, H. Yu, S. V. Kershaw, H. H. Xu, S. Gupta, F. Hetsch, A. L. Rogach, and N. Zhao*,",
+            "title":
+                "Fast, Air-Stable Infrared Photodetectors based on Spray-Deposited Aqueous HgTe Quantum Dots",
+            "url": "http://goo.gl/wQ4cSq",
+            "press": "Adv. Funct. Mater.",
+            "issue": ", 24, 53-59",
+            "year": "2014"
+        },
+        {
+            "author":
+                "T. Xiao, H. H. Xu, J. Q. Mai, G. Grancini, A. Petrozza, Y. Wang, X. Xin, Y. Lu, B. S. Ong, U-S. Jeng, X.H. Lu*, and N. Zhao*.",
+            "title":
+                "Molecular Packing and Electronic Processes in Amorphous-Like Polymer Bulk Heterojunction Solar Cells with Fullerene Intercalation",
+            "url": "http://goo.gl/RTuzj2",
+            "press": "Sci. Rep.",
+            "issue": ", 4, 5211",
+            "year": "2014"
+        },
+        {
+            "author":
+                "H. H. Xu, J. Li, J. Q. Mai, T. Xiao, X. H. Lu, and N. Zhao*.",
+            "title":
+                "Influence of Donor-Acceptor Arrangement on Charge Transport in Conjugated Copolymers",
+            "url": "http://goo.gl/FLHo26",
+            "press": "J. Phys. Chem. C",
+            "issue": ", 118, 5600-5605",
+            "year": "2014"
+        }
+    ],
+    "thirteen": [
+        {
+            "author":
+                "M. D. Wang, S. Z. Zheng, X. Wan, Y. R. Su, N. Ke, N. Zhao*, K. Y.  Wong, and J. B. Xu*,",
+            "title":
+                "Limit of Voc in polymeric bulk heterojunction solar  cells predicted by a double-junction model",
+            "url":
+                "http://pdn.sciencedirect.com/science?_ob=MiamiImageURL&_cid=271495&_user=5654&_pii=S0927024812004011&_check=y&_origin=article&_zone=toolbar&_coverDate=2013--31&view=c&originContentFamily=serial&wchp=dGLzVlS-zSkzk&md5=91068fafac6c5c1ab6c764584bf98735&pid=1-s2.0-S0927024812004011-main.pdf",
+            "press": "Sol. Energ. Mat. Sol. Cells.",
+            "issue": " 108, 17-21",
+            "year": "2013"
+        },
+        {
+            "author":
+                "H.H. Xu, Y.Q. Jiang, J. Li, B. S. Ong, Z.G. Shuai, J.B. Xu and N. Zhao*,",
+            "title":
+                "Spectroscopic Study of Electron and Hole Polarons in a High-Mobility Donor-Acceptor Conjugated Copolymer",
+            "url": "http://pubs.acs.org/doi/pdf/10.1021/jp4003388",
+            "press": "J. Phys. Chem. C,",
+            "issue": " 117(13): 6835-6841",
+            "year": "2013"
+        },
+        {
+            "author": "F. Hetsch, N. Zhao, S.V. Kershaw, and A. L. Rogach1,",
+            "title": "Quantum dot field effect transistors",
+            "url":
+                "http://ac.els-cdn.com/S1369702113002897/1-s2.0-S1369702113002897-main.pdf?_tid=cfc8119e-8188-11e3-9dc6-00000aab0f6c&acdnat=1390191215_189de50c5f56f9f6485d137908e075b4",
+            "press": "Mater. Today,",
+            "issue": " 16, 312",
+            "year": "2013"
+        },
+        {
+            "author":
+                "Y. F. Zhang, F. S. Zu, S. T. Lee, L. S. Liao, N. Zhao and B. Q. Sun,",
+            "title":
+                "Heterojunction with Organic Thin Layer on Silicon for Record Efficiency Hybrid Solar Cell",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/aenm.201300923/pdf",
+            "press": "Adv. Energy Mater,",
+            "issue": "4, 1300923",
+            "year": "2013"
+        },
+        {
+            "author":
+                "H. H. Xu, J. Li, B. H. K. Leung, C. C. Y. Poon B.S. Ong, Y.T. Zhang, and N. Zhao*.",
+            "title":
+                "A High-Sensitivity Near-Infrared Phototransistor Based on Organic Bulk Heterojunction",
+            "url":
+                "http://pubs.rsc.org/en/journals/journalissues/nr#!issueid=nr005023&type=current&issnprint=2040-3364",
+            "press": "Nanoscale,",
+            "issue": " 117(13): 6835-6841. ",
+            "year": "2013"
+        }
+    ],
+    "twelve": [
+        {
+            "author":
+                "X. M. Wamg; W. G. Xie; J. Du; C. L. Wang; N. Zhao and J. B. Xu,",
+            "title":
+                "Graphene/Metal  contacts: Bistable states and novel memory devices",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/adma.201104574/pdf",
+            "press": "Adv. Mater.",
+            "issue": " , 24, 2614-19 ",
+            "year": "2012"
+        },
+        {
+            "author":
+                "T.P. Osedach, N. Zhao, T.L. Andrew, P.R. Brown; D. D. Wanger, D.B. Strasfeld, L.Y. Chang, M. Bawendi and V. Bulovic,",
+            "title":
+                "Bias-Stress Effect in 1,2-Ethanedithiol- Treated PbS Quantum Dot Field-Effect Transistors",
+            "url": "https://pubs.acs.org/doi/pdf/10.1021/nn3008788",
+            "press": "ACS Nano",
+            "issue": "6, 3121-3127",
+            "year": "2012"
+        }
+    ],
+    "eleven": [
+        {
+            "author":
+                "Y. R. Su, C. L. Wang, W. G. Xie, F. Y. Xie, J. Chen, N. Zhao*, and J.B. Xu*,",
+            "title":
+                "Low-Voltage  Organic Field-Effect Transistors (OFETs) with Solution-Processed Metal-Oxide as  Gate Dielectric",
+            "url": "http://pubs.acs.org/doi/pdf/10.1021/am201078v",
+            "press": "ACS ",
+            "issue": ". ,3, 4662-4667",
+            "year": "2011"
+        },
+        {
+            "author":
+                "M. D. Wang, F. Y. Xie, J. Du, Q. Tang, S. Z.  Zheng, Q. Miao, J Chen, N. Zhao and  J.B. Xu,",
+            "title":
+                "Degradation Mechanism of Organic Solar Cells with Aluminum Cathode,",
+            "url":
+                "http://ac.els-cdn.com/S0927024811004235/1-s2.0-S0927024811004235-main.pdf?_tid=cb711d36-5acc-11e2-b385-00000aab0f6b&acdnat=1357784820_67abc980506060a905ebc9cf0dcf4830",
+            "press": "Sol.  Energ. Mat. Sol. Cells.",
+            "issue": " 95, 3303-3310",
+            "year": "2011"
+        },
+        {
+            "author": "C. L. Wang, X. M. Wamg, J. Min, N. Zhao, J.B. Xu,",
+            "title":
+                "Super-linear  rectifying property of rubrene single crystal devices",
+            "url":
+                "http://ac.els-cdn.com/S1566119911002333/1-s2.0-S1566119911002333-main.pdf?_tid=e9b6834e-5acc-11e2-9f8e-00000aab0f27&acdnat=1357784871_e9478110d1248878b5a97a3f5c022c66",
+            "press": "Org.  Electron.",
+            "issue": ", 12, 1731-1735",
+            "year": "2011"
+        },
+        {
+            "author":
+                "C. L. Wang, Z. X. Liang, Y. L. Liu, XM Wamg, N. Zhao, Q. Miao, WP Hu, and J.B. Xu,",
+            "title":
+                "Single crystal  n-channel field effect transistors from solution-processed silylethynylated  tetraazapentacene",
+            "url":
+                "http://pubs.rsc.org/en/content/articlehtml/2011/jm/c1jm13153b",
+            "press": "J. Mater. Chem.",
+            "issue": ", 21, 15201-15204",
+            "year": "2011"
+        },
+        {
+            "author":
+                "M. D. Wang, F. Y. Xie, W. G. Xie, S. Z. Zheng, N. Ke,  J. Chen, N. Zhao, and J. B. Xu,",
+            "title":
+                "Device  lifetime improvement of polymer-based bulk heterojunction solar cells by  incorporating copper oxide layer at Al cathode",
+            "url":
+                "http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=APPLAB000098000018183304000001&idtype=cvips&doi=10.1063/1.3580629&prog=normal",
+            "press": "Appl. Phys. Lett.",
+            "issue": ", 98, 183304",
+            "year": "2011"
+        },
+        {
+            "author":
+                "P. R. Brown, R. R. Lunt, N. Zhao, T. P. Osedach, D. D. Wanger,  L. Y. Chang, M. Bawendi, and V. Bulovic,",
+            "title":
+                "Improved Current Extraction from  ZnO/PbS Quantum Dot Heterojunction Photovoltaics Using a MoO3  Interfacial Layer",
+            "url": "http://pubs.acs.org/doi/pdf/10.1021/nl201472u",
+            "press": "Nano Lett",
+            "issue": ".., 11, 2955",
+            "year": "2011"
+        },
+        {
+            "author":
+                "S. Q. Ren, N. Zhao, S. C. Crawford,  M. Tambe, V. Bulovic, S. Gradecak,",
+            "title":
+                "Heterojunction photovoltaics using GaAs Nanowires and  conjugated polymers",
+            "url": "http://pubs.acs.org/doi/pdf/10.1021/nl1030166",
+            "press": "Nano Lett",
+            "issue": ", 11, 408 ",
+            "year": "2011"
+        },
+        {
+            "author":
+                "M. J. Lee, D. Gupta1, N. Zhao, M. Heeney, I. McCulloch, and H. Sirringhaus,",
+            "title":
+                "Anisotropy of Charge Transport in a Uniaxially Aligned and Chain-Extended, High-Mobility, Conjugated Polymer Semiconductor",
+            "url":
+                "https://onlinelibrary.wiley.com/doi/pdf/10.1002/adfm.201001781",
+            "press": "Adv. Funct. Mater.",
+            "issue": "21, 932",
+            "year": "2011"
+        }
+    ],
+    "ten": [
+        {
+            "author":
+                "S. M. Geyer, P. M. Allen, L. Y. Chang,  C. R. Wong, T. P. Osedach, N. Zhao, V.  Bulovic, and M. Bawendi,",
+            "title":
+                "Control of the carrier type in InAs  nanocrystal films by predeposition incorporation of Cd",
+            "url": "http://pubs.acs.org/doi/pdf/10.1021/nn101772n",
+            "press": "ACS Nano",
+            "issue": ", 4, 7373",
+            "year": "2010"
+        },
+        {
+            "author":
+                "T. P. Osedach, N. Zhao, S. M. Geyer, L. Y. Chang, D. D. Wanger, A. C. Arango, M.  Bawendi, and V. Bulovic,",
+            "title":
+                "Interfacial Recombination for Fast Operation of a  Planar Organic/QD Infrared Photodetector",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/adma.201002589/pdf",
+            "press": "Adv. Mater.",
+            "issue": ", 22 5250-5254",
+            "year": "2010"
+        },
+        {
+            "author": "H. Sirringhaus, M. Bird and N. Zhao,",
+            "title":
+                "Charge Transport Physics of  Conjugated Polymer Field-Effect Transistors",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/adma.200902857/pdf",
+            "press": "Adv. Mater.",
+            "issue": ", 22, 3893-3898 (2010)",
+            "year": "2010"
+        },
+        {
+            "author":
+                "N. Zhao, T. P. Osedach, L-Y Chang,  S. Geyer, M. B. Binda, M. Bawendi, and V. Bulovic,",
+            "title":
+                "Colloidal PbS quantum dots solar cells with high fill factor",
+            "url": "http://pubs.acs.org/doi/pdf/10.1021/nn100129j",
+            "press": "ACS  Nano",
+            "issue": ", 4, 3743",
+            "year": "2010"
+        }
+    ],
+    "nine": [
+        {
+            "author":
+                "T. Hallam, M. J. Lee, N. Zhao, I. Nandhakumar, M. Kemerink,  M. Heeney and I. McCulloch, and H. Sirringhaus,",
+            "title":
+                "Local charge trapping in  conjugated polymers resolved by scanning Kelvin Probe microscopy,",
+            "url": "http://prl.aps.org/pdf/PRL/v103/i25/e256803",
+            "press": "Phys.  Rev. Lett.",
+            "issue": ", 103, 256803",
+            "year": "2009"
+        },
+        {
+            "author":
+                "N. Zhao,  Y. Y. Noh, J. F. Chang, H. Sirringhaus, M. Heeney, and I. McCulloch,",
+            "title":
+                "Spectroscopic  evidence for polaron localization at interfaces in high-mobility  microcrystalline conjugated polymers",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/adma.200900326/pdf",
+            "press": "Adv. Mater.",
+            "issue": ", 21, 3759-3763",
+            "year": "2009"
+        },
+        {
+            "author":
+                "M. Kemerink, T. Hallam, M.-J. Lee, N. Zhao and H. Sirringhaus,",
+            "title":
+                "Temperature-  and density-dependent channel potentials in high-mobility organic field-effect  transistors,",
+            "url": "http://prb.aps.org/pdf/PRB/v80/i11/e115325",
+            "press": "Phys. Rev. B",
+            "issue": ", 80, 115325",
+            "year": "2009"
+        }
+    ],
+    "eight": [
+        {
+            "author":
+                "L. Herlogsson, Y. Y. Noh, N. Zhao, X. Crispin, H. Sirringhaus, M. Berggren,",
+            "title":
+                "Downscaling of  organic field-effect transistors with a polyelectrolyte gate Insulator.",
+            "url":
+                "http://onlinelibrary.wiley.com/doi/10.1002/adma.200801756/pdf",
+            "press": " Adv.  Mater.",
+            "issue": ", 20, 4708-4713",
+            "year": "2008"
+        }
+    ],
+    "seven": [
+        {
+            "author": "Y. Y. Noh, N. Zhao, M. Caironi, and H. Sirringhaus,",
+            "title": "Y. Y. Noh, N. Zhao, M. Caironi, and H. Sirringhaus",
+            "url": "https://www.nature.com/articles/nnano.2007.365",
+            "press": "Nat. Nanotechnol.",
+            "issue": "2, 784 - 789 ",
+            "year": "2007"
+        },
+        {
+            "author":
+                "N. Zhao,  M. Chiesa, H. Sirringhaus, Y. Li, Y. Wu, and B. S. Ong,",
+            "title":
+                "Self-aligned inkjet  printing of highly conducting gold electrodes with submicron resolution",
+            "url":
+                "http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=JAPIAU000101000006064513000001&idtype=cvips&doi=10.1063/1.2496249&prog=normal",
+            "press": "J. Appl. Phys.",
+            "issue": "101, 064513 ",
+            "year": "2007"
+        }
+    ],
+    "six": [
+        {
+            "author": "Y. Y. Noh*, N.  Zhao, X.Y. Cheng*, and H. Sirringhaus*.",
+            "title":
+                "Self-aligned printing of  high-performance polymer thin-film transistors.",
+            "url":
+                "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4154184",
+            "press":
+                "2006 International Electron Devices Meeting, Vols 1 and 2",
+            "issue": ": 37-40",
+            "year": "2006"
+        },
+        {
+            "author":
+                "J. F. Chang, J. Clark, N. Zhao, H. Sirringhaus, D. Breiby, J. W. Andreasen, M. M. Nielsen, M. Giles, M. Heeney, and I. McCulloch,",
+            "title":
+                "Molecular-weight dependence of  interchain polaron delocalization and exciton bandwidth in high-mobility  conjugated polymers",
+            "url": "http://prb.aps.org/pdf/PRB/v74/i11/e115318",
+            "press": "Phys. Rev. B",
+            "issue": ", 74, 115318 ",
+            "year": "2006"
+        }
+    ],
+    "five": [
+        {
+            "author":
+                "Y. Wu, P. Liu, B. S. Ong, T. Srikumar, N.  Zhao, G. A. Botton, and S. Zhu,",
+            "title":
+                "Controlled orientation of  liquid-crystalline polythiophene semiconductors for high-performance organic  thin-film transistors",
+            "url":
+                "http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=APPLAB000086000014142102000001&idtype=cvips&doi=10.1063/1.1894597&prog=normal",
+            "press": "Appl. Phys. Lett.",
+            "issue": ", 86,",
+            "year": "2005"
+        },
+        {
+            "author":
+                "N. Zhao, O. Marinov, G. A. Botton, M. J. Deen, B. S. Ong, Y. Wu, and P. Liu,",
+            "title":
+                "Characterization of MOS structures based on poly  (3,3'''-dialkyl-quaterthiophene)",
+            "url":
+                "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1510903",
+            "press": " IEEE Trans. Electron. Dev.",
+            "issue": ", 52, 2150",
+            "year": "2005"
+        }
+    ]
+}

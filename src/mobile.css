@@ -1,0 +1,85 @@
+@media screen and (max-width:550px) {
+    html, body {
+        
+        /* max-width:500px;
+        min-width:300px; */
+        /* background: red; */
+    }
+    #showcase {
+        width:100%;
+        width:500px;
+       
+        font-size:14px;
+    }
+    #transparent {
+        width:300px;
+    
+        font-size:14px;
+    }
+    #transparent > div:first-child {
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        margin-top:70px;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        font-size:14px;
+    }
+    #transparent > div:first-child > p:first-child {
+        color: red;
+        font-size: 25px;
+        line-height: 50px;
+        font-weight: 600;
+        /* text-shadow: 1 1 0.2em yellow, -1 -1 0.2em yellow; */
+        font-family: 'Merriweather', serif;
+    }
+    
+    #transparent > div:first-child > p:nth-child(2) {
+        color: #3742fa;
+        font-size: 14px;
+        color:red;
+        font-weight: 500;
+        font-family: 'Merriweather', serif;
+    }
+    
+    #transparent > div:first-child div.researchFocus div {
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+     
+       
+        font-family: 'Merriweather', serif;
+    }
+
+    .researchFocus {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .researchFocus_container {
+        width: 20em;
+        height: 12.5em;
+        margin: 0px auto;
+        overflow: hidden;
+        top: 0.5em;
+        background: rgba(231, 27, 27, 0.3);
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    
+    .currentInterest > p {
+        text-align: justify;
+        font-family: Roboto;
+        font-size: 1.2em;
+        letter-spacing: 0.12em;
+    }
+    
+    .currentInterest  {
+        max-width: 600px;
+        padding-right: 30px;
+    }
+    
+}

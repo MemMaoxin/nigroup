@@ -1,0 +1,44 @@
+{
+    "research": [
+        {   
+            "link": "/spectroscopy",
+            "img_url": "/img/research/spectroscopy_group.jpg",
+            "title": "In-situ Spectroscopy",
+            "content": [
+                "Probing charge localization in organic donor-acceptor systems using charge modulation spectroscopy",
+                "Spectroscopic study on liquid/solid interfaces in organic bioelectronics",
+                "Deep-level transient spectroscopy"
+            ]
+        },
+        {
+            "link": "/solarcell",
+            "img_url": "/img/research/solar_cell_group.jpg",
+            "title": "Photovoltaics and Photodetection",
+            "content": [
+                "Infrared photodetectors based on water-dispersible colloidal quantum dots",
+                "Perovskite solar cells: precursor design, material processing and device physics",
+                "Morphology-electronic property correlations in organic bulk heterojunction solar cells"
+            ]
+        },
+        {
+            "link": "/biosensor",
+            "img_url": "/img/research/bio-sensor_group.jpg",
+            "title": "Bio-Sensors",
+            "content": [
+                "Wearable multi-modality sensors for health monitoring: ECG, PPG and pressure sensors",
+                "Multimodality models for precise and continuous blood pressure monitoring",
+                "Developing intelligent system that leverage data-driven techniques to monitor human health"
+            ]
+        },
+        {
+            "link": "/supercapacitor",
+            "img_url": "/img/research/supercapacitor_group.jpg",
+            "title": "Energy Storage",
+            "content": [
+                "3D carbon electrode materials",
+                "High energy-density metal oxide based asymmetric supercapacitors",
+                "Diffusion/migration process and kinetics of electrode reaction for electrochemical energy storage cells"
+            ]
+        }
+    ]
+}

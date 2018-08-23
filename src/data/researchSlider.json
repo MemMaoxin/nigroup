@@ -1,0 +1,49 @@
+{
+    "researchSpectroscopy": [
+        {
+            "img_url": "/img/research/slider/spec_1.jpg"
+        },
+        {
+            "img_url":  "/img/research/slider/spec_2.jpg"
+        },
+        {
+            "img_url":  "/img/research/slider/spec_3.jpg"
+        },
+        {
+            "img_url":  "/img/research/slider/spec_4.jpg"
+        }
+    ],
+    "researchSolarcell": [
+        {
+            "img_url": "/img/research/slider/solar_1.jpg"
+        },
+        {
+            "img_url": "/img/research/slider/solar_2.jpg"
+        },
+        {
+            "img_url": "/img/research/slider/solar_3.jpg"
+        }
+    ],
+    "researchBiosensor": [
+        {
+            "img_url": "/img/research/slider/biosen_1.jpg"
+        },
+        {
+            "img_url": "/img/research/slider/biosen_2.jpg"
+        },
+        {
+            "img_url": "/img/research/slider/biosen_3.jpg"
+        }
+    ],
+    "researchSupercapacitor": [
+        {
+            "img_url": "/img/research/slider/energy_1.jpg"
+        },
+        {
+            "img_url": "/img/research/slider/energy_2.jpg"
+        },
+        {
+            "img_url": "/img/research/slider/energy_3.jpg"
+        }
+    ]
+}

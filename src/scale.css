@@ -1,0 +1,101 @@
+@media screen and (max-width: 550px) {
+ 
+    html,body {
+        
+        transform: scale(0.95,0.95);
+        transform-origin: top left; 
+        height:100%;
+  
+    }
+    .open-slide {
+        position: absolute;
+    }
+   
+    #showcase {
+        width: 100%;
+    }
+    #transparent {
+        width: 100%;
+    }
+    .react-tabs__tab-list {
+        padding: 0 30px;
+    }
+
+    .publicationPanel {
+        width:90%;
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width: 430px) {
+    html,body {
+        
+        transform: scale(0.82,0.82);
+    
+        transform-origin: top left;
+        height:100%;
+   
+    }
+    #showcase {
+        width: 100%;
+    }
+    #transparent {
+        width: 100%;
+    }
+    .react-tabs__tab-list {
+        padding: 0 30px;
+    }
+
+    .publicationPanel {
+        width:90%;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html,body {
+        
+        transform: scale(0.78,0.78);
+       
+        transform-origin: top left;
+     
+        height:100%;
+    }
+    #showcase {
+        width: 100%;
+    }
+    #transparent {
+        width: 100%;
+    }
+    .react-tabs__tab-list {
+        padding: 0 30px;
+    }
+
+    .publicationPanel {
+        width:90%;
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width: 350px) {
+    html,body {
+        
+        transform: scale(0.78,0.78);
+       
+        transform-origin: top left;
+     
+        height:100%;
+    }
+    #showcase {
+        width: 100%;
+    }
+    #transparent {
+        width: 100%;
+    }
+    .react-tabs__tab-list {
+        padding: 0 30px;
+    }
+
+    .publicationPanel {
+        width:90%;
+        padding: 0 30px;
+    }
+}

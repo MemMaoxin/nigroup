@@ -1,0 +1,25 @@
+{
+  "name": "hk",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router": "3.2.0",
+    "react-router-hash-link": "^1.2.0",
+    "react-scripts": "1.1.4",
+    "react-scrollable-anchor": "^0.6.1",
+    "react-slick": "^0.23.1",
+    "react-tabs": "^2.2.2",
+    "reactjs-popup": "^1.1.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "http://www.ee.cuhk.edu.hk/~nzhao"
+}

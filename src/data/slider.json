@@ -1,0 +1,25 @@
+{
+    "slider": [
+        {
+            "img_url": "/img/slider/group_all.jpg"
+        },
+        {
+            "img_url": "/img/slider/graduate2016.jpg"
+        },
+        {
+            "img_url": "/img/slider/graduate2017.jpg"
+        },
+        {
+            "img_url": "/img/slider/group_shenzhen_party.jpg"
+        },
+        {
+            "img_url": "/img/slider/group_bbq1.jpg"
+        },
+        {
+            "img_url": "/img/slider/group_bbq2.jpg"
+        },
+        {
+            "img_url": "/img/slider/group_shatian_party.jpg"
+        }
+    ]
+}
