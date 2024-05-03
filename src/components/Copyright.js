@@ -5,7 +5,7 @@ export default () => {
         <div className="copyright">
             <p> ©Ni Group Since 2010, CUHK E.E.Dept. </p>{" "}
             <p>
-                Last update (07/2018),{" "}
+                Last update (09/2018),{" "}
                 <i>
                     Designed by{" "}
                     <a href="mailto:xiaojunlincoln@gmail.com"> Jun Xiao </a>{" "}

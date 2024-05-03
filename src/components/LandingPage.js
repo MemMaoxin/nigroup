@@ -71,6 +71,24 @@ export default class LandingPage extends React.Component {
                                         <a href="#">
                                             <li>
                                                 <i className="iconfont icon-news" />{" "}
+                                                Congratulations to Dr. Yu Zhang for passing her oral defense. (2018/9/3){" "}
+                                            </li>{" "}
+                                        </a>{" "}
+                                        <a href="#">
+                                            <li>
+                                                <i className="iconfont icon-news" />{" "}
+                                                Congratulations to Dr. Jie Cao for passing his oral defense. (2018/8/3){" "}
+                                            </li>{" "}
+                                        </a>{" "}
+                                        <a href="#">
+                                            <li>
+                                                <i className="iconfont icon-news" />{" "}
+                                                Congratulations to Miss Mengjie Xu for passing her oral defense. (2018/7/30){" "}
+                                            </li>{" "}
+                                        </a>{" "}
+                                        <a href="#">
+                                            <li>
+                                                <i className="iconfont icon-news" />{" "}
                                                 Congratulations to Dr.Yang Zhou
                                                 for passing his oral defense.
                                                 (2018/7/5){" "}
@@ -98,60 +116,7 @@ export default class LandingPage extends React.Component {
                                                 (2018/6/20){" "}
                                             </li>{" "}
                                         </a>{" "}
-                                        <a
-                                            href="https://doi.org/10.1002/adma.201800156"
-                                            target="blank"
-                                        >
-                                            <li>
-                                                <i className="iconfont icon-news" />{" "}
-                                                Check out our new review paper
-                                                on{" "}
-                                                <b>
-                                                    <em>
-                                                        {" "}
-                                                        Advanced Materials{" "}
-                                                    </em>{" "}
-                                                </b>{" "}
-                                                (1800156) for biointegrated
-                                                optoelectronic devices.
-                                                (2018/5/28){" "}
-                                            </li>{" "}
-                                        </a>{" "}
-                                        <a
-                                            href=" https://www.sciencedirect.com/science/article/pii/S2211285518303306"
-                                            target="blank"
-                                        >
-                                            <li>
-                                                <i className="iconfont icon-news" />{" "}
-                                                Check out our new papar on{" "}
-                                                <b>
-                                                    <em> Nano Energy </em>{" "}
-                                                </b>{" "}
-                                                about Na<sub>3</sub>V<sub>
-                                                    2{" "}
-                                                </sub>(PO<sub>4</sub>)
-                                                <sub>3</sub> for Na-ion battery.
-                                                (2018/5/9){" "}
-                                            </li>{" "}
-                                        </a>{" "}
-                                        <a
-                                            href=" https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.201707350"
-                                            target="blank"
-                                        >
-                                            <li>
-                                                <i className="iconfont icon-news" />{" "}
-                                                Check out our new communication
-                                                paper on{" "}
-                                                <b>
-                                                    <em>
-                                                        {" "}
-                                                        Advanced Materials{" "}
-                                                    </em>{" "}
-                                                </b>{" "}
-                                                (1707350) for perovskite solar
-                                                cells. (2018/5/7){" "}
-                                            </li>{" "}
-                                        </a>{" "}
+                                 
                                         {/* <a href="#">
                                                             <li>
                                                                 <i className="iconfont icon-news" />{" "}

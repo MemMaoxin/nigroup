@@ -82,7 +82,7 @@
         },
         {
             "img_url": "/img/people/dongyifang.jpg",
-            "name": "Yifang Dong, Ph.D.",
+            "name": "Yifan Dong, Ph.D.",
             "title": "Postdoc Fellow",
             "Email": "dongyifan@whut.edu.cn",
             "Project":
@@ -90,6 +90,65 @@
             "Add": "N/A",
             "experience":
                 "Yifan Dong graduated from Wuhan University of Technology as a Ph.D. in 2017. She went to University of Wisconsin Madison as a visiting scholar from 2015 to 2017. Now she is working on nanomaterials for energy storage applications.",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/linan.jpg",
+            "name": "Nan Li, Ph.D.",
+            "title": "Postdoc Fellow",
+            "Email": "linanjlu9104@163.com",
+            "Project":
+                "Project: Perovskites and quantum dots based semiconductor devices",
+            "Add": "SHB306",
+            "experience":
+                "Nan Li joined Ni’s group in August, 2018 as a research associate. She received her doctoral degree from the Department of Chemistry, Tsinghua University in 2018. Her Ph.D thesis focused on the fabrication and the study on the chemical stability of metal halide perovskite solar cells. Now she is working on perovskites and quantum dots based semiconductor devices.",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/liujing.jpg",
+            "name": "Jing Liu",
+            "title": "Postdoc Fellow",
+            "Email": "jingliu@ee.cuhk.edu.hk",
+            "Project":
+                "Project: Cardiovascular modelling and wearable medical devices",
+            "Add": "SHB310",
+            "experience":
+                "Jing Liu received her B.S. in Computer Science and Technology from Wuhan University, China in 2014, and Ph.D. degree in Electronic Engineering from The Chinese University of Hong Kong in 2018. Her Ph.D. dissertation was on multi-wavelength photoplethysmography-based methods and systems for wearable and non-invasive cardiovascular monitoring. Currently, she is working as a research associate under Prof. Zhao.",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/zhouyang.jpg",
+            "name": "Yang Zhou",
+            "title": "Postdoc Fellow",
+            "Email": "1155056505@link.cuhk.edu.hk",
+            "Project": "Project: Hybrid perovskites for photovoltaic and light emitting",
+            "Add": "SHB 310",
+            "experience":
+                "Yang Zhou graduated from Ni's group as a Ph.D. in 2018. He received his B.Eng. in Materials Science and Engineering from Huazhong University of Science and Technology in 2011, and recieved his M.Eng. in Materials Science and Engineering from Tsinghua University in 2014. Now he is working on hybrid perovskites for photovoltaic and light emitting applications.",
+            "website": ""
+        },
+         {
+            "img_url": "/img/people/caojie.jpg",
+            "name": "Jie Cao",
+            "title": "Postdoc Fellow",
+            "Email": "jcao@ee.cuhk.edu.hk",
+            "Project":
+                "Project: Efficient and stable perovskite solar cells",
+            "Add": "SHB 310",
+            "experience":
+                "Jie Cao received his B.Eng. degree in Materials Science and Engineering from Huazhong University of Science and Technology in 2014, and his Ph.D. degree under the supervising of Prof. Ching-Ping Wong and Prof. Ni Zhao in Electronic Engineering Department from the Chinses University of Hong Kong in 2018. Now he is working on high-efficiency and stable perovskite solar cells.",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/zhangyu.jpg",
+            "name": "Yu Zhang",
+            "title": "Postdoc Fellow",
+            "Email": "yuzhang@ee.cuhk.edu.hk",
+            "Project":
+                "Project: Spectroscopy probing & electrolyte gated orangic transistors",
+            "Add": "SHB204",
+            "experience":
+                "Yu Zhang received her B.S. in Optical Information and Technology from Sun Yat-sen University, China in 2014, and Ph.D. degree in Electronic Engineering from The Chinese University of Hong Kong in 2018. Her Ph.D. dissertation was on Morphology-Property Relations in Liquid Electrolyte-gated Organic Thin Film Transistors.",
             "website": ""
         },
         {
@@ -127,41 +186,7 @@
                 "Junling Xu joined Ni's group as a research assistant in 2013 and now he is a Ph. D. candidate under the supervision of Prof. Ni Zhao and Prof. Ching-Ping Wong. He received B.E. from University of Jinan in 2010 and M.E. from Shandong University in 2012. Prior to CUHK he was a research assistant at City University of Hong Kong. Now he is studying the diffusion/migration process and kinetics of electrode reaction for electrochemical energy storage cells.",
             "website": ""
         },
-        {
-            "img_url": "/img/people/zhouyang.jpg",
-            "name": "Yang Zhou",
-            "title": "Ph.D. Candidate",
-            "Email": "yzhou@ee.cuhk.edu.hk",
-            "Project": "Project: Improve performance of perovskite solar cells",
-            "Add": "SHB 310A",
-            "experience":
-                "Yang Zhou joined Ni's group as a Ph.D. candidate in 2014. He received his B.Eng. in Materials Science and Engineering from Huazhong University of Science and Technology in 2011, and recieved his M.Eng. in Materials Science and Engineering from Tsinghua University in 2014. Now he is working on perovskite solar cells.",
-            "website": ""
-        },
-        {
-            "img_url": "/img/people/zhangyu.jpg",
-            "name": "Yu Zhang",
-            "title": "Ph.D. Candidate",
-            "Email": "yuzhang@ee.cuhk.edu.hk",
-            "Project":
-                "Project: Spectroscopy study of interfaces of polymer and cells",
-            "Add": "SHB 310A",
-            "experience":
-                "Yu Zhang joined Ni's group as a Ph.D. candidate in 2014. She received her B.S. in Optical Information Science and Technology in 2014 from Sun Yat-sen University. Now she is working on spectroscopy study of the interface of organic polymer and cells.",
-            "website": ""
-        },
-        {
-            "img_url": "/img/people/caojie.jpg",
-            "name": "Jie Cao",
-            "title": "Ph.D. Candidate",
-            "Email": "jcao@ee.cuhk.edu.hk",
-            "Project":
-                "Project: Mesostructured perovskite solar cells",
-            "Add": "SHB 310A",
-            "experience":
-                "Jie Cao joined Ni's group as a Ph.D. candidate in 2014 (Co-supervised with Prof. Ching-Ping Wong). He received his B.Eng. in Materials Science and Engineering from Huazhong University of Science and Technology in 2014. Now he is working on high-efficiency mesostructured perovskite solar cells.",
-            "website": ""
-        },
+        
         {
             "img_url": "/img/people/zhouguodong.jpg",
             "name": "Guodong Zhou",
@@ -174,18 +199,7 @@
                 "Guodong Zhou joined Ni's group as a Ph.D. candidate in Aug 2014. He received his B.Eng. in IC Design and Integrated System from Huazhong University of Science and Technology in Jun 2014. He is a visiting Ph.D. in Department of Psychiatry at Massachusetts General Hospital in Boston during Jan - Jun 2018. His research focuses on organic photodetectors and their applications on hemodynamic monitoring.",
             "website": ""
         },
-        {
-            "img_url": "/img/people/liujing.jpg",
-            "name": "Jing Liu",
-            "title": "Ph.D. Candidate",
-            "Email": "jingliu@ee.cuhk.edu.hk",
-            "Project":
-                "Project: Cardiovascular modelling and wearable medical devices",
-            "Add": "SHB 310-73",
-            "experience":
-                "Liu Jing received her B.S. in Computer Science and Technology from Wuhan University, China in 2014, and is currently pursuing her Ph.D. degree in Electronic Engineering at The Chinese University of Hong Kong. Now she is working on cardiovascular modelling and wearable medical devices.",
-            "website": ""
-        },
+ 
         {
             "img_url": "/img/people/supeng.jpg",
             "name": "Peng Su",
@@ -209,17 +223,7 @@
                 "Yan Huang joined Ni's group as a Ph.D. candidate in 2015. She received her B.S. in Materials Science in 2015 from Shandong University. Now she is working on biomass based sensing material.",
             "website": ""
         },
-        {
-            "img_url": "/img/people/xumengjie.jpg",
-            "name": "Mengjie Xu",
-            "title": "Ph.D. Candidate",
-            "Email": "mjxu@ee.cuhk.edu.hk",
-            "Project": "Project: High energy and power sodium-ion hybrid capacitor",
-            "Add": "SHB 310A",
-            "experience":
-                "Mengjie Xu joined Ni's group as a Ph.D. candidate in 2016. She received her B.S. in materials chemistry from Central South University in 2016. Now she is working on high energy and power sodium-ion hybrid capacitor.",
-            "website": ""
-        },
+        
         {
             "img_url": "/img/people/xuchenxi.jpg",
             "name": "Chenxi Xu",
@@ -347,7 +351,7 @@
         {
             "img_url": "/img/people/shensuling.jpg",
             "name": "Suling Shen, Ph.D.",
-            "title": "Research Staff at H.glass Technology Co., Ltd",
+            "title": "Senior Engineer, ShenZhen AnZhi Environment Co., Ltd",
             "Email": "shensuling2006@yeah.net",
             "Add": "",
             "experience":
@@ -417,11 +421,21 @@
         {
             "img_url": "/img/people/luhaipeng.jpg",
             "name": "Haipeng Lu",
-            "title": "Graduate student at Northwestern University",
+            "title": "Software Engineer at Alatting Inc",
             "Email": "lhpustc@gmail.com",
             "Add": "",
             "experience":
-                "Mr. Haipeng Lu is now a graduate student at Northwestern University. He studied as a MPhil student in Ni's group during 2014-2016. His research focus was on characterization of nanostructured optoelectronic devices.",
+                "Mr. Haipeng Lu is now a software engineer at Alatting Inc. He studied as a MPhil student in Ni's group during 2014-2016. His research focus was on characterization of nanostructured optoelectronic devices.",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/xumengjie.jpg",
+            "name": "Mengjie Xu",
+            "title": "Graduate student at Duke University",
+            "Email": "xmj0210@foxmail.com",
+            "Add": "",
+            "experience":
+                "Mengjie Xu joined Ni's group as a mphil student in 2016 and she worked on high energy and power sodium-ion hybrid capacitor. She graduated from CUHK in 2018, and now studying in Duke University.",
             "website": ""
         }
         

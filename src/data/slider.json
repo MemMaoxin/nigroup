@@ -1,6 +1,18 @@
 {
     "slider": [
         {
+            "img_url": "/img/slider/NiGroup1_180903.jpg"
+        },
+        {
+            "img_url": "/img/slider/NiGroup2_180918.jpg"
+        },
+        {
+            "img_url": "/img/slider/NiGroup3_180908.jpg"
+        },
+        {
+            "img_url": "/img/slider/NiGroup4_ZYZYLJCJ.jpg"
+        },
+        {
             "img_url": "/img/slider/group_all.jpg"
         },
         {
@@ -11,15 +23,7 @@
         },
         {
             "img_url": "/img/slider/group_shenzhen_party.jpg"
-        },
-        {
-            "img_url": "/img/slider/group_bbq1.jpg"
-        },
-        {
-            "img_url": "/img/slider/group_bbq2.jpg"
-        },
-        {
-            "img_url": "/img/slider/group_shatian_party.jpg"
         }
+      
     ]
 }
