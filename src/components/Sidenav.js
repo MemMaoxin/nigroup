@@ -49,7 +49,7 @@ export default class componentName extends Component {
         return (
             <div className="open-slide">
                 <span>
-                    <a href="#" onClick={e => this.openSlideMenu(e)}>
+                    <a href="/#" onClick={e => this.openSlideMenu(e)}>
                         <svg width="30" height="30">
                             <path d="M0,5 30,5" stroke="#000" strokeWidth="5" />
                             <path
@@ -67,7 +67,7 @@ export default class componentName extends Component {
                 </span>
                 <div id="side-menu" className="side-nav">
                     <a
-                        href="#"
+                        href="/#"
                         className="btn-close"
                         onClick={e => this.closeSlideMenu(e)}
                     >

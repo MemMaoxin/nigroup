@@ -59,7 +59,7 @@ export default class LandingPage extends React.Component {
                                 <div className="microsoft researchFocus_container">
                                     <ul className="marquee">
                                         {" "}
-                                        {/* <a href="#">
+                                        {/* <a href="/#">
                                                                 <li>
                                                                     <i className="iconfont icon-news" />{" "}
                                                                     <bold>
@@ -68,25 +68,25 @@ export default class LandingPage extends React.Component {
                                                                     </bold>
                                                                 </li>
                                                             </a> */}{" "}
-                                        <a href="#">
+                                        <a href="/#">
                                             <li>
                                                 <i className="iconfont icon-news" />{" "}
                                                 Congratulations to Dr. Yu Zhang for passing her oral defense. (2018/9/3){" "}
                                             </li>{" "}
                                         </a>{" "}
-                                        <a href="#">
+                                        <a href="/#">
                                             <li>
                                                 <i className="iconfont icon-news" />{" "}
                                                 Congratulations to Dr. Jie Cao for passing his oral defense. (2018/8/3){" "}
                                             </li>{" "}
                                         </a>{" "}
-                                        <a href="#">
+                                        <a href="/#">
                                             <li>
                                                 <i className="iconfont icon-news" />{" "}
                                                 Congratulations to Miss Mengjie Xu for passing her oral defense. (2018/7/30){" "}
                                             </li>{" "}
                                         </a>{" "}
-                                        <a href="#">
+                                        <a href="/#">
                                             <li>
                                                 <i className="iconfont icon-news" />{" "}
                                                 Congratulations to Dr.Yang Zhou
@@ -108,7 +108,7 @@ export default class LandingPage extends React.Component {
                                                 sensing. (2018/7/3){" "}
                                             </li>{" "}
                                         </a>{" "}
-                                        <a href="#">
+                                        <a href="/#">
                                             <li>
                                                 <i className="iconfont icon-news" />{" "}
                                                 Congratulations to Dr.Jing Liu
@@ -117,7 +117,7 @@ export default class LandingPage extends React.Component {
                                             </li>{" "}
                                         </a>{" "}
                                  
-                                        {/* <a href="#">
+                                        {/* <a href="/#">
                                                             <li>
                                                                 <i className="iconfont icon-news" />{" "}
                                                                 Congratulations to Mengyu for
