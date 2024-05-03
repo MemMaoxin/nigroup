@@ -1,7 +1,5 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { Link } from "react-router";
-// import lab from "../img/lab.png";
 
 export default class LandingPage extends React.Component {
     render() {
