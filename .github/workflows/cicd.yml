@@ -1,0 +1,87 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: Build CI/CD
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_branch:
+        description: 'source code branch'
+        required: true
+        default: 'main'
+  workflow_call:
+    inputs:
+      source_branch:
+        description: 'source code branch'
+        required: true
+        default: 'main'
+        type: string
+  push:
+    branches: [ "main" ]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+jobs:
+  pages-ci-cd:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ inputs.source_branch }}
+    - name: Set Node.js 20.x
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: 'npm'
+        cache-dependency-path: yarn.lock
+    - name: Run install
+      uses: borales/actions-yarn@v4
+      with:
+        dir: './'
+        cmd: install # will run `yarn install` command
+    - name: Install Protoc
+      uses: arduino/setup-protoc@v3
+      with:
+        version: "25.3"
+    - name: Generate Protobuf
+      run: ./generate_proto_ts.sh
+    - name: Build
+      run: |
+        yarn build
+    - name: Archive artifact
+      shell: sh
+      run: |
+        echo ::group::Archive artifact
+        tar \
+          --dereference --hard-dereference \
+          --directory "./build" \
+          -cvf "artifact.tar" \
+          --exclude=.git \
+          --exclude=.github \
+          .
+        echo ::endgroup::
+          
+    - name: Upload artifact
+      id: upload-artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: github-pages
+        path: artifact.tar
+        retention-days: 1
+        if-no-files-found: error
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
