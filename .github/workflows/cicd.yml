@@ -52,12 +52,6 @@ jobs:
       with:
         dir: './'
         cmd: install # will run `yarn install` command
-    - name: Install Protoc
-      uses: arduino/setup-protoc@v3
-      with:
-        version: "25.3"
-    - name: Generate Protobuf
-      run: ./generate_proto_ts.sh
     - name: Build
       run: |
         yarn build
