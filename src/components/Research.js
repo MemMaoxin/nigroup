@@ -94,7 +94,7 @@ export default class Research extends Component {
                         >
                             <div
                                 style={{
-                                    width: "min(80%, 980px)",
+                                    width: "80%",
                                     border: "2px solid #6c006d",
                                     borderRadius: "18px",
                                     padding: "16px",
