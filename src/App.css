@@ -1232,7 +1232,8 @@ button#toggleAlumni:hover {
 .container {
     margin: auto;
     width: 100%;
-    height: 50vh;
+    /* height: 50vh; */
+    max-height: 1050px;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
@@ -1295,7 +1296,7 @@ button#toggleAlumni:hover {
 }
 
 .container .box:hover {
-    /* width: 35%; */
+    width: 18%;
     cursor: pointer;
 }
 

@@ -15,6 +15,23 @@ export default class Publication extends Component {
                 </h1>
                 <div className="publication">
                     <PublicationSlider />
+                    <div style={{ textAlign: "center", margin: "14px 0" }}>
+                        <a
+                            href="https://scholar.google.com/citations?user=xMOTgY4AAAAJ&hl=zh-CN&oi=ao"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                                fontSize: "22px",
+                                fontWeight: 600,
+                                color: "#1a73e8",
+                                textDecoration: "underline",
+                                textUnderlineOffset: "4px",
+                                cursor: "pointer",
+                            }}
+                        >
+                            Google Scholar Profile
+                        </a>
+                    </div>
                     <PublicationTab />
                 </div>
                 <div id="peopleLink" />
