@@ -1295,7 +1295,7 @@ button#toggleAlumni:hover {
 }
 
 .container .box:hover {
-    width: 35%;
+    /* width: 35%; */
     cursor: pointer;
 }
 
