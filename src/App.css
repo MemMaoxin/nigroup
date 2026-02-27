@@ -632,7 +632,7 @@ body {
 
 .research {
     padding-top: 0px;
-    max-width: 1520px;
+    max-width: 80%;
     margin: auto;
     text-align:justify;
     /* min-width:620px; */
@@ -920,7 +920,7 @@ div#publicationLink:empty {
 
 .people {
     min-width: 620px;
-    max-width: 1200px;
+    max-width: 85%;
    
     text-align: center;
     font-family: Roboto;
@@ -1126,7 +1126,7 @@ button#toggleAlumni:hover {
 
 .publication {
    
-    max-width: 1050px;
+    max-width: 80%;
     margin: auto;
 }
 
