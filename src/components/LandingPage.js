@@ -1,34 +1,34 @@
 import React from "react";
 import Navbar from "./Navbar";
 
-const newsItems = [
-    {
-        href: "/#",
-        text: "Congratulations to Dr. Yu Zhang for passing her oral defense. (2018/9/3)",
-    },
-    {
-        href: "/#",
-        text: "Congratulations to Dr. Jie Cao for passing his oral defense. (2018/8/3)",
-    },
-    {
-        href: "/#",
-        text: "Congratulations to Miss Mengjie Xu for passing her oral defense. (2018/7/30)",
-    },
-    {
-        href: "/#",
-        text: "Congratulations to Dr. Yang Zhou for passing his oral defense. (2018/7/5)",
-    },
-    {
-        href: "https://onlinelibrary.wiley.com/doi/abs/10.1002/smll.201801520",
-        text:
-            "Check out our new paper on Small (201801520) for pressure sensing. (2018/7/3)",
-        external: true,
-    },
-    {
-        href: "/#",
-        text: "Congratulations to Dr. Jing Liu for passing her oral defense. (2018/6/20)",
-    },
-];
+// const newsItems = [
+//     {
+//         href: "/#",
+//         text: "Congratulations to Dr. Yu Zhang for passing her oral defense. (2018/9/3)",
+//     },
+//     {
+//         href: "/#",
+//         text: "Congratulations to Dr. Jie Cao for passing his oral defense. (2018/8/3)",
+//     },
+//     {
+//         href: "/#",
+//         text: "Congratulations to Miss Mengjie Xu for passing her oral defense. (2018/7/30)",
+//     },
+//     {
+//         href: "/#",
+//         text: "Congratulations to Dr. Yang Zhou for passing his oral defense. (2018/7/5)",
+//     },
+//     {
+//         href: "https://onlinelibrary.wiley.com/doi/abs/10.1002/smll.201801520",
+//         text:
+//             "Check out our new paper on Small (201801520) for pressure sensing. (2018/7/3)",
+//         external: true,
+//     },
+//     {
+//         href: "/#",
+//         text: "Congratulations to Dr. Jing Liu for passing her oral defense. (2018/6/20)",
+//     },
+// ];
 
 export default function LandingPage() {
     return (
