@@ -6,6 +6,14 @@ export default class PublicationTab extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            twentySix: require("../data/publication.json")["twenty-six"],
+            twentyFive: require("../data/publication.json")["twenty-five"],
+            twentyFour: require("../data/publication.json")["twenty-four"],
+            twentyThree: require("../data/publication.json")["twenty-three"],
+            twentyTwo: require("../data/publication.json")["twenty-two"],
+            twentyOne: require("../data/publication.json")["twenty-one"],
+            twenty: require("../data/publication.json").twenty,
+            nineteen: require("../data/publication.json").nineteen,
             eighteen: require("../data/publication.json").eighteen,
             seventeen: require("../data/publication.json").seventeen,
             sixteen: require("../data/publication.json").sixteen,
@@ -28,6 +36,14 @@ export default class PublicationTab extends Component {
             <Tabs defaultIndex={1}>
                 <TabList>
                     <span className="tabYear">Year:</span>
+                    <Tab>2026</Tab>
+                    <Tab>2025</Tab>
+                    <Tab>2024</Tab>
+                    <Tab>2023</Tab>
+                    <Tab>2022</Tab>
+                    <Tab>2021</Tab>
+                    <Tab>2020</Tab>
+                    <Tab>2019</Tab>
                     <Tab>2018</Tab>
                     <Tab>2017</Tab>
                     <Tab>2016</Tab>
@@ -45,6 +61,46 @@ export default class PublicationTab extends Component {
                     <Tab>2004</Tab>
                 </TabList>
 
+                <TabPanel>
+                    {this.state.twentySix.map(item => (
+                        <PublicationPanel key={item.issue} item={item} />
+                    ))}
+                </TabPanel>
+                <TabPanel>
+                    {this.state.twentyFive.map(item => (
+                        <PublicationPanel key={item.issue} item={item} />
+                    ))}
+                </TabPanel>
+                <TabPanel>
+                    {this.state.twentyFour.map(item => (
+                        <PublicationPanel key={item.issue} item={item} />
+                    ))}
+                </TabPanel>
+                <TabPanel>
+                    {this.state.twentyThree.map(item => (
+                        <PublicationPanel key={item.issue} item={item} />
+                    ))}
+                </TabPanel>
+                <TabPanel>
+                    {this.state.twentyTwo.map(item => (
+                        <PublicationPanel key={item.issue} item={item} />
+                    ))}
+                </TabPanel>
+                <TabPanel>
+                    {this.state.twentyOne.map(item => (
+                        <PublicationPanel key={item.issue} item={item} />
+                    ))}
+                </TabPanel>
+                <TabPanel>
+                    {this.state.twenty.map(item => (
+                        <PublicationPanel key={item.issue} item={item} />
+                    ))}
+                </TabPanel>
+                <TabPanel>
+                    {this.state.nineteen.map(item => (
+                        <PublicationPanel key={item.issue} item={item} />
+                    ))}
+                </TabPanel>
                 <TabPanel>
                     {this.state.eighteen.map(item => (
                         <PublicationPanel key={item.issue} item={item} />

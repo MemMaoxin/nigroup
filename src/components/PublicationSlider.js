@@ -1,69 +1,44 @@
 import React from "react";
 
+const items = [
+  {
+    href: "https://www.nature.com/articles/s41928-024-01199-9",
+    img: require("../img/slider/1_NE.png"),
+    alt: "Nature Electronics paper",
+  },
+  {
+    href: "https://www.science.org/doi/full/10.1126/sciadv.adu9516",
+    img: require("../img/slider/2_SA.png"),
+    alt: "Science Advances paper",
+  },
+  {
+    href: "https://www.nature.com/articles/s41467-025-67118-4",
+    img: require("../img/slider/3_NC.png"),
+    alt: "Nature Communications paper",
+  },
+  {
+    href: "https://www.science.org/doi/full/10.1126/sciadv.adj3476",
+    img: require("../img/slider/4_SA_W.png"),
+    alt: "Science Advances paper",
+  },
+];
+
 export default class PublicationSlider extends React.Component {
-    render() {
-        return (
-            <div className="container">
-                <div className="box">
-                    <a
-                        href="https://pubs.acs.org/doi/abs/10.1021/acsnano.7b00972"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {" "}
-                        <h1>
-                            <span style={{ visibility: "hidden" }}>Paper</span>
-                        </h1>
-                    </a>
-                </div>
-                <div className="box">
-                    <a
-                        href="https://pubs.acs.org/doi/abs/10.1021/acsami.7b09384"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <h1>
-                            <span style={{ visibility: "hidden" }}>
-                                Gallery
-                            </span>
-                        </h1>
-                    </a>
-                </div>
-                {/* <div className="box">
-                    <h1>
-                        <a
-                            href="https://pubs.acs.org/doi/abs/10.1021/acsnano.7b00972"
-                            target="_blank"
-                        >
-                            <span>of</span>
-                        </a>
-                    </h1>
-                </div> */}
-                <div className="box">
-                    <a
-                        href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/adma.201702675"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {" "}
-                        <h1>
-                            <span style={{ visibility: "hidden" }}>Zhao's</span>
-                        </h1>
-                    </a>
-                </div>
-                <div className="box">
-                    <a
-                        href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/adma.201707350"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {" "}
-                        <h1>
-                            <span style={{ visibility: "hidden" }}>Lab</span>
-                        </h1>{" "}
-                    </a>
-                </div>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="container">
+        {items.map((it) => (
+          <a
+            key={it.href}
+            className="box"
+            href={it.href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="boxImg" src={it.img} alt={it.alt} />
+          </a>
+        ))}
+      </div>
+    );
+  }
 }

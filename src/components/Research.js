@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ResearchItem from "./ReseachItem";
 
 export default class Research extends Component {
     constructor(props) {
@@ -35,50 +34,29 @@ export default class Research extends Component {
                                     {" "}
                                     <i className="iconfont icon-scientificresearch" />
                                     {"  "}
-                                    High performance near-to-mid IR
-                                    photodetectors
+                                    Optoelectronics
                                 </li>
                                 <li>
                                     {" "}
                                     <i className="iconfont icon-scientificresearch" />
-                                    {"  "} Solar cells and bioelectronic devices
-                                </li>
-                                <li>
-                                    {" "}
-                                    <i className="iconfont icon-scientificresearch" />
-                                    {"  "}
-                                    Spectroscopic studies of photophysical
-                                    processes that occur in polymers
-                                </li>
-
-                                <li>
-                                    <i className="iconfont icon-scientificresearch" />
-                                    {"    "}
-                                    Colloidal nanocrystals
+                                    {"  "} Wearable sensors and devices
                                 </li>
                                 <li>
                                     {" "}
                                     <i className="iconfont icon-scientificresearch" />
                                     {"  "}
-                                    Perovskite materials and their associated
-                                    interfaces
-                                </li>
-
-                                <li>
-                                    {" "}
-                                    <i className="iconfont icon-scientificresearch" />
-                                    {"  "}
-                                    Fabrication methods for flexible and
-                                    stretchable integrated electronic circuits
+                                    Fabrication methods for printable, flexible and stretchable integrated electronic circuits
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div className="researchCard">
-                        {this.state.research.map(item => (
-                            <ResearchItem key={item.title} item={item} />
-                        ))}
-                    </div>
+                        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '16px', marginTop: '24px', flexWrap: 'wrap', flexDirection: 'column'}}>
+                            <img src="/img/poster/1.png" alt="poster1" style={{maxWidth: '80%', height: 'auto'}} />
+                            <img src="/img/poster/2.png" alt="poster2" style={{maxWidth: '80%', height: 'auto'}} />
+                            <img src="/img/poster/3.png" alt="poster3" style={{maxWidth: '80%', height: 'auto'}} />
+                            <img src="/img/poster/4.png" alt="poster4" style={{maxWidth: '80%', height: 'auto'}} />
+                        </div>
+
                 </div>
             </div>
         );

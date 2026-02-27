@@ -16,7 +16,6 @@ class App extends Component {
                 <div id="main">
                     <LandingPage />
                     <Research />
-                    {this.props.children}
                     <Publication />
                     <People />
                     <Contact />

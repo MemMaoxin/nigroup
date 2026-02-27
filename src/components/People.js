@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PeopleItem from "./PeopleItem";
 import ToggleAlumni from "./ToggleAlumni";
+import AlumniItem from "./AlumniItem";
 
 export default class People extends Component {
     constructor(props) {
@@ -46,7 +47,7 @@ export default class People extends Component {
                         style={{ display: this.state.show }}
                     >
                         {this.state.alumni.map(item => (
-                            <PeopleItem key={item.name} item={item} />
+                            <AlumniItem key={item.name} item={item} />
                         ))}
                     </div>
                     <div id="contactLink" />

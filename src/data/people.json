@@ -2,104 +2,220 @@
     "people": [
         {
             "img_url": "/img/people/zhaoni.jpg",
-            "name": "Ni Zhao, Ph.D.",
-            "title": "PI, Associate Professor of the EE. Dept., CUHK ",
+            "name": "Ni Zhao, Professor.",
+            "title": "Professor of the EE. Dept., CUHK ",
             "Project": "",
             "Email": "nzhao@ee.cuhk.edu.hk",
-            "Add": "Room 230, Ho Sin Hang Engineering Building (SHB)",
+            "Add": "Room 429, Ho Sin Hang Engineering Building (SHB)",
             "experience":
                 "Ni Zhao received her Ph.D degree in Physics from the University of Cambridge (UK) in 2008. From 2008-2010 she worked as a postdoctoral research fellow at the Massachusetts Institute of Technology (USA). Her work at MIT involved developing novel hybrid solar cell structures that incorporate colloidal nanocrystal quantum dots with organic and inorganic materials, and using these structures to study electronic processes in solar cells. Prior to MIT she worked in the Optoelectronic Group at the Cavendish Laboratory in Cambridge, UK. Her PhD dissertation was focused on device physics of polymer based field-effect transistors, charge transport mechanism at organic semiconductor/ dielectric interface and nanoscale patterning using inkjet-printing technique. During her M.S Degree, Zhao worked in the Xerox Research Center of Canada on novel semiconducting polymers and their applications in field-effect transistors. Ni Zhao joined the Department of Electronic Engineering at the Chinese University of Hong Kong (CUHK) in December 2010.",
             "website": ""
         },
         {
-            "img_url": "/img/people/zhoushuang.jpg",
-            "name": "Shuang Zhou, Ph.D.",
-            "title": "Postdoc Fellow",
-            "Email": "szhou@ee.cuhk.edu.hk",
-            "Project": "Project: Hybrid energy storage and bio-sensors",
-            "Add": "SHB 315",
-            "experience":
-                "Shuang Zhou received her B.S. degree in Department of Chemistry from Tsinghua University in 2011; and Ph.D degree in Electronic Engineering, CUHK in 2016. Since then, she has been working as a Research Associate under Prof. Wong and Prof. Zhao. Her Ph. D thesis was focused on graphene and hybrid perovskite materials for electronic and electrochemical devices. Now she is working on hybrid energy storage and bio-sensors.",
+            "img_url": "/img/people/caiyuting.jpg",
+            "name": "Yuting Cai, Professor.",
+            "title": "Research Assistant Professor of the EE. Dept., CUHK ",
+            "Project": "",
+            "Email": "yutingcai@cuhk.edu.hk",
+            "Add": "Room 112b, Ho Sin Hang Engineering Building (SHB)",
+            "experience":"",
             "website": ""
         },
         {
-            "img_url": "/img/people/yuhui.jpg",
-            "name": "Hui Yu, Ph.D.",
+            "img_url": "/img/people/yuhui.jpeg",
+            "name": "Hui Yu",
             "title": "Postdoc Fellow",
             "Email": "yuhui@link.cuhk.edu.hk",
             "Project":
-                "Project: Organometal halide perovskite devices",
+                "Organometal halide perovskite devices",
             "Add": "SHB 206",
-            "experience":
-                "Hui Yu graduated from Ni's group as a Ph.D. in 2016. He received his B.S. in materials science and engineering from Central South University in 2008 and his M.S. in materials science and engineering from Tsinghua University in 2012. Now his research interests involve organometal halide perovskite materials and colloid quantum dots for optoelectronic application.",
+            "experience":"Hui Yu graduated from Ni's group as a Ph.D. in 2016. He received his B.S. in materials science and engineering from Central South University in 2008 and his M.S. in materials science and engineering from Tsinghua University in 2012. Now his research interests involve organometal halide perovskite materials and colloid quantum dots for optoelectronic application.",
+            "website": ""
+        },        
+        {
+            "img_url": "/img/people/guoyuwei.jpg",
+            "name": "Yuwei Guo",
+            "title": "Postdoc Fellow",
+            "Email": "ywguo@link.cuhk.edu.hk",
+            "Project":
+                "Setting up a spectroscopy system to analyze devices",
+            "Add": "SHB 204",
+            "experience":"",
             "website": ""
         },
         {
-            "img_url": "/img/people/luoningqi.jpg",
-            "name": "Ningqi Luo, Ph.D.",
+            "img_url": "/img/people/qiushirong.jpg",
+            "name": "Shirong Qiu",
             "title": "Postdoc Fellow",
+            "Email": "qiusrong@163.com",
+            "Project": "Wearable medical devices with applications",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/liyihao.jpg",
+            "name": "Yihao Li",
+            "title": "Postdoc Fellow",
+            "Email": "yihaoli@cuhk.edu.hk",
+            "Project":"Flexible devices for biomedical applications",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/hexie.jpg",
+            "name": "Xie He",
+            "title": "Postdoc Fellow",
+            "Email": "xiehe@link.cuhk.edu.hk",
+            "Project":"Computational spectroscopy and polarimetry",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/wushun.jpg",
+            "name": "Shun Wu",
+            "title": "Ph.D. Candidate",
+            "Email": "paullywu@outlook.com",
+            "Project":"",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/zhangzheng.jpg",
+            "name": "Zheng Zhang",
+            "title": "Ph.D. Candidate",
+            "Email": "1155186060@link.cuhk.edu.hk",
+            "Project":"",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/yanjiayi.jpg",
+            "name": "Jiayi Yan",
+            "title": "Ph.D. Candidate",
+            "Email": "1155204720@link.cuhk.edu.hk",
+            "Project":"",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/qiyixin.jpg",
+            "name": "Yixin Qi",
+            "title": "Ph.D. Candidate",
+            "Email": "easonqi@link.cuhk.edu.hk",
+            "Project":"",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/wangmingqiang.jpg",
+            "name": "Mingqiang Wang",
+            "title": "Ph.D. Student",
+            "Email": "mingqiangwang@link.cuhk.edu.hk",
+            "Project":"",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/chenhaoran.jpg",
+            "name": "Haoran Chen",
+            "title": "Ph.D. Student",
+            "Email": "hrchen@link.cuhk.edu.hk",
+            "Project":"",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/maoxinxin.jpeg",
+            "name": "Xinxin Mao",
+            "title": "Ph.D. Student",
+            "Email": "xinxinmao@link.cuhk.edu.hk",
+            "Project":"",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/zhanghengning.jpg",
+            "name": "Hengning Zhang",
+            "title": "Ph.D. Student",
+            "Email": "1155173801@link.cuhk.edu.hk",
+            "Project":"",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        }
+
+    ],
+    "alumni": [
+        {
+            "img_url": "/img/people/zhouzhiwen.jpg",
+            "name": "Zhiwen Zhou",
+            "title": "Associate Professor, Harbin Institute of Technology",
+            "Email": "zwzhou@connect.hku.hk",
+            "Project":"",
+            "experience":"",
+            "website": ""
+        },
+
+        {
+            "img_url": "/img/people/luoningqi.jpg",
+            "name": "Ningqi Luo",
+            "title": "Philips",
             "Email": "nqluo@link.cuhk.edu.hk",
-            "Project":
-                "Project: Wearable system for mobile health",
-            "Add": "SHB 206",
             "experience":
                 "Dr. Luo is a Postdoctoral Fellow in charge of developing the wearable system for mobile health and is a co-founder of Intelligent Sensing Limited (ints.hk). Under Prof. Zhao’s supervision, he earned his Ph.D. degree in electronic engineering from The Chinese University of Hong Kong in 2017 with a dissertation on Flexible Piezoresistive Sensors for Biomedical Applications. He received his B.S. in microelectronics in 2010 and M.S. in condensed matter physics in 2013 both from Sun Yat-sen University.",
             "website": ""
         },
         {
             "img_url": "/img/people/tianzhilin.jpg",
-            "name": "Zhilin Tian, Ph.D.",
-            "title": "Postdoc Fellow",
-            "Email": "zltian@ee.cuhk.edu.hk",
-            "Project": "Project: High efficient thermal interface material",
-            "Add": "SHB 315",
+            "name": "Zhilin Tian",
+            "title": "Associate Professor, Sun Yat-sen University",
+            "Email": " ",
             "experience":
                 "Dr. Zhilin Tian joined Ni's group as a senior research assistant in2016. He received B.S in metallurgical engineering from Central SouthUniversity and Ph.D. in materials science from Institute of Metal Research, Chinese Academy of Sciences. Now he is working on thermal interface material.",
             "website": ""
         },
         {
             "img_url": "/img/people/zhuqiang.jpg",
-            "name": "Qiang Zhu, Ph.D.",
-            "title": "Postdoc Fellow",
+            "name": "Qiang Zhu",
+            "title": "Associate Professor, Yunnan University",
             "Email": "qzhu@ee.cuhk.edu.hk",
-            "Project": "Project: Quantum Dots based semiconductor devices",
-            "Add": "SHB 207",
             "experience":
                 "Dr. Qiang Zhu joined Ni's group as a senior research assistant in 2016. He holds a B.S. in materials processing engineering from Sichuan University and a Ph.D. in materials science from Huazhong University of Science and Technology. Now he is working on Quantum Dots based semiconductor devices.",
             "website": ""
         },
         {
             "img_url": "/img/people/chenyun.jpg",
-            "name": "Yun Chen, Ph.D.",
-            "title": "Postdoc Fellow",
+            "name": "Yun Chen",
+            "title": "",
             "Email": "yunchen@cuhk.edu.hk",
-            "Project":
-                "Project: Silicon and the 3rd semiconductor material etching",
-            "Add": "SHB 315",
             "experience":
                 "Dr. Yun Chen joined Ni's group as a postdoctoral research fellow in 2017 under the support of Hong Kong scholar program. He received B.S and Ph.D. in mechanical engineering from Central South University in 2009 and 2014, respectively, and joined the Guangdong University of Technology as an associate professor in 2015. From 2016 to 2017, he also worked as a visiting scholar in Georgia Institute of Technology. Now he is working on silicon and the 3rd semiconductor material etching.",
             "website": ""
         },
         {
             "img_url": "/img/people/dongyifang.jpg",
-            "name": "Yifan Dong, Ph.D.",
-            "title": "Postdoc Fellow",
+            "name": "Yifan Dong",
+            "title": "",
             "Email": "dongyifan@whut.edu.cn",
-            "Project":
-                "Project: Nanomaterials for energy storage applications",
-            "Add": "N/A",
             "experience":
                 "Yifan Dong graduated from Wuhan University of Technology as a Ph.D. in 2017. She went to University of Wisconsin Madison as a visiting scholar from 2015 to 2017. Now she is working on nanomaterials for energy storage applications.",
             "website": ""
         },
         {
             "img_url": "/img/people/linan.jpg",
-            "name": "Nan Li, Ph.D.",
-            "title": "Postdoc Fellow",
+            "name": "Nan Li",
+            "title": "",
             "Email": "linanjlu9104@163.com",
-            "Project":
-                "Project: Perovskites and quantum dots based semiconductor devices",
-            "Add": "SHB306",
             "experience":
                 "Nan Li joined Ni’s group in August, 2018 as a research associate. She received her doctoral degree from the Department of Chemistry, Tsinghua University in 2018. Her Ph.D thesis focused on the fabrication and the study on the chemical stability of metal halide perovskite solar cells. Now she is working on perovskites and quantum dots based semiconductor devices.",
             "website": ""
@@ -107,11 +223,8 @@
         {
             "img_url": "/img/people/liujing.jpg",
             "name": "Jing Liu",
-            "title": "Postdoc Fellow",
+            "title": "",
             "Email": "jingliu@ee.cuhk.edu.hk",
-            "Project":
-                "Project: Cardiovascular modelling and wearable medical devices",
-            "Add": "SHB310",
             "experience":
                 "Jing Liu received her B.S. in Computer Science and Technology from Wuhan University, China in 2014, and Ph.D. degree in Electronic Engineering from The Chinese University of Hong Kong in 2018. Her Ph.D. dissertation was on multi-wavelength photoplethysmography-based methods and systems for wearable and non-invasive cardiovascular monitoring. Currently, she is working as a research associate under Prof. Zhao.",
             "website": ""
@@ -119,10 +232,8 @@
         {
             "img_url": "/img/people/zhouyang.jpg",
             "name": "Yang Zhou",
-            "title": "Postdoc Fellow",
+            "title": "",
             "Email": "1155056505@link.cuhk.edu.hk",
-            "Project": "Project: Hybrid perovskites for photovoltaic and light emitting",
-            "Add": "SHB 310",
             "experience":
                 "Yang Zhou graduated from Ni's group as a Ph.D. in 2018. He received his B.Eng. in Materials Science and Engineering from Huazhong University of Science and Technology in 2011, and recieved his M.Eng. in Materials Science and Engineering from Tsinghua University in 2014. Now he is working on hybrid perovskites for photovoltaic and light emitting applications.",
             "website": ""
@@ -130,11 +241,8 @@
          {
             "img_url": "/img/people/caojie.jpg",
             "name": "Jie Cao",
-            "title": "Postdoc Fellow",
+            "title": "",
             "Email": "jcao@ee.cuhk.edu.hk",
-            "Project":
-                "Project: Efficient and stable perovskite solar cells",
-            "Add": "SHB 310",
             "experience":
                 "Jie Cao received his B.Eng. degree in Materials Science and Engineering from Huazhong University of Science and Technology in 2014, and his Ph.D. degree under the supervising of Prof. Ching-Ping Wong and Prof. Ni Zhao in Electronic Engineering Department from the Chinses University of Hong Kong in 2018. Now he is working on high-efficiency and stable perovskite solar cells.",
             "website": ""
@@ -142,11 +250,8 @@
         {
             "img_url": "/img/people/zhangyu.jpg",
             "name": "Yu Zhang",
-            "title": "Postdoc Fellow",
+            "title": "",
             "Email": "yuzhang@ee.cuhk.edu.hk",
-            "Project":
-                "Project: Spectroscopy probing & electrolyte gated orangic transistors",
-            "Add": "SHB204",
             "experience":
                 "Yu Zhang received her B.S. in Optical Information and Technology from Sun Yat-sen University, China in 2014, and Ph.D. degree in Electronic Engineering from The Chinese University of Hong Kong in 2018. Her Ph.D. dissertation was on Morphology-Property Relations in Liquid Electrolyte-gated Organic Thin Film Transistors.",
             "website": ""
@@ -154,34 +259,18 @@
         {
             "img_url": "/img/people/laujessica.jpg",
             "name": "Jessica Lau",
-            "title": "Research Assistant",
+            "title": "",
             "Email": "jessicalau222@cuhk.edu.hk",
-            "Project":
-                "Project: driving clinical trials and data for medical devices ",
-            "Add": "SHB 229",
             "experience":
                 "Jessica graduated from The Chinese University of Hong Kong with a B.Sc. Degree major in Biology, double minor in Public Health and Integrated Business. She is working as a research assistant on driving clinical trials and data for cardiovascular medical devices in hospitals; with her previous project management experiences in start-ups and knowledge in health sector, she is also taking part in the operation team of our mobile health wearable start-up, Intelligent Sensing Limited.",
             "website": ""
         },
-        {
-            "img_url": "/img/people/qiushirong.jpg",
-            "name": "Shirong Qiu",
-            "title": "Research Assistant ",
-            "Email": "qiusrong@163.com",
-            "Project": "Project: Wearable medical devices with applications",
-            "Add": "N/A",
-            "experience":
-                " I would join Ni's group as a junior research assistant from June, 2018 to 2019. I received my B.Eng. in Biomedical Engineering from Southern Medical University(SMU) in 2015 and received my M.Eng. in Biomedical Engineering from Shanghai Jiao Tong University(SJTU) in 2018. I have research experience in neural engineering, biometrics recognition and image processing etc. and, in Ni's group, I would focus on wearable medical devices with applications. ",
-            "website": ""
-        },
+
         {
             "img_url": "/img/people/xujunling.jpg",
             "name": "Junling Xu",
-            "title": "Ph.D. Candidate",
+            "title": "",
             "Email": "jlxu@ee.cuhk.edu.hk",
-            "Project":
-                "Project: Processes of electrode reaction for electrochemical cells",
-            "Add": "SHB 310A",
             "experience":
                 "Junling Xu joined Ni's group as a research assistant in 2013 and now he is a Ph. D. candidate under the supervision of Prof. Ni Zhao and Prof. Ching-Ping Wong. He received B.E. from University of Jinan in 2010 and M.E. from Shandong University in 2012. Prior to CUHK he was a research assistant at City University of Hong Kong. Now he is studying the diffusion/migration process and kinetics of electrode reaction for electrochemical energy storage cells.",
             "website": ""
@@ -190,11 +279,8 @@
         {
             "img_url": "/img/people/zhouguodong.jpg",
             "name": "Guodong Zhou",
-            "title": "Ph.D. Candidate",
+            "title": "",
             "Email": "gdzhou@ee.cuhk.edu.hk",
-            "Project":
-                "Project: Organic photodetectors for hemodynamic monitoring",
-            "Add": "SHB 204",
             "experience":
                 "Guodong Zhou joined Ni's group as a Ph.D. candidate in Aug 2014. He received his B.Eng. in IC Design and Integrated System from Huazhong University of Science and Technology in Jun 2014. He is a visiting Ph.D. in Department of Psychiatry at Massachusetts General Hospital in Boston during Jan - Jun 2018. His research focuses on organic photodetectors and their applications on hemodynamic monitoring.",
             "website": ""
@@ -203,11 +289,8 @@
         {
             "img_url": "/img/people/supeng.jpg",
             "name": "Peng Su",
-            "title": "Ph.D. Candidate",
+            "title": "",
             "Email": "psu@ee.cuhk.edu.hk",
-            "Project":
-                "Project: Developing intelligent systems that monitor human health",
-            "Add": "SHB 204A",
             "experience":
                 "Peng Su received the B.Eng. from Huazhong University of Science and Technology in 2014, and is currently pursuing Ph.D. degree in Electronic Engineering at The Chinese University of Hong Kong. Now he is working on deep learning and computer vision.",
             "website": ""
@@ -215,10 +298,8 @@
         {
             "img_url": "/img/people/huangyan.jpg",
             "name": "Yan Huang",
-            "title": "Ph.D. Candidate",
+            "title": "",
             "Email": "yhuang@ee.cuhk.edu.hk",
-            "Project": "Project: Biomass based sensing materials",
-            "Add": "SHB 310",
             "experience":
                 "Yan Huang joined Ni's group as a Ph.D. candidate in 2015. She received her B.S. in Materials Science in 2015 from Shandong University. Now she is working on biomass based sensing material.",
             "website": ""
@@ -227,34 +308,18 @@
         {
             "img_url": "/img/people/xuchenxi.jpg",
             "name": "Chenxi Xu",
-            "title": "Ph.D. Candidate",
+            "title": "",
             "Email": "cimixcx@outlook.com",
-            "Project": "Project: Surface EMG sensing based on flexible sensors",
-            "Add": "SHB 204",
             "experience":
                 "Chenxi Xu joined Ni's group as a Ph.D. candidate in 2016. She received her B.S. in Precision Machinery and Precision Instruments at University of Science and Technology of China in 2016. Now she is working on surface EMG sensing based on flexible sensors.",
             "website": ""
         },
-        {
-            "img_url": "/img/people/guoyuwei.jpg",
-            "name": "Yuwei Guo",
-            "title": "Ph.D. Candidate",
-            "Email": "ywguo@link.cuhk.edu.hk",
-            "Project":
-                "Project: Setting up a spectroscopy system to analyze devices",
-            "Add": "SHB 204",
-            "experience":
-                "Yuwei GUO joined Ni’s Group as a Ph.D candidate in 2017. He received his B.S. in Precision Machinery and Precision Instruments from University of Science and Technology of China (USTC) in 2017. His research is around characterizing the device by building up a microspectroscopy system and analyzing the devices’ properties. ",
-            "website": ""
-        },
+
         {
             "img_url": "/img/people/tandaxin.jpg",
             "name": "Daxin Tan",
-            "title": "Ph.D. Candidate",
+            "title": "",
             "Email": "daxintan@link.cuhk.edu.hk",
-            "Project":
-                "Project: Application of machine learning on health informatics",
-            "Add": "SHB 204",
             "experience":
                 "Daxin Tan joined Ni’s group as a Ph.D candidate in 2017. He received his B.S. in material science and engineering from Tsinghua university in 2017. Now he is working on application of machine learning technique on health informatics as well as material science.",
             "website": ""
@@ -263,10 +328,8 @@
         {
             "img_url": "/img/people/jiayongheng.jpg",
             "name": "Yongheng Jia",
-            "title": "Ph.D. Candidate",
+            "title": "",
             "Email": "1155096615@link.cuhk.edu.hk",
-            "Project": "Project: High-efficient perovskite LED",
-            "Add": "SHB 204",
             "experience":
                 "Yongheng Jia (Co-supervised by Prof. Ching-Ping Wong) received B.S. from Harbin Institute of Technology of material science and engineering. He joined Ni’s group as Ph.D. candidate at 2017 and he is working on perovskite LED.",
             "website": ""
@@ -274,23 +337,17 @@
         {
             "img_url": "/img/people/liujiatao.jpg",
             "name": "Jiangtao Liu",
-            "title": "Ph.D. Candidate",
+            "title": "",
             "Email": "liujt14@gmail.com",
-            "Project": "Project: Improve sensing ability of medical robotics",
-            "Add": "N/A",
             "experience":
                 "Jiangtao Liu received his B.S. from Tsinghua University, China in 2018, and is currently pursuing his Ph.D. degree in Electronic Engineering at The Chinese University of Hong Kong. Now he is working on medical devices and improving sensing ability of medical robotics.",
             "website": ""
-        }
-    ],
-    "alumni": [
+        },
         {
             "img_url": "/img/people/xuhaihua.jpg",
-            "name": "Haihua Xu, Ph.D.",
+            "name": "Haihua Xu",
             "title":
                 "Professor in Bio. Eng., Shenzhen University",
-            "Email": "hhxu@szu.edu.cn",
-            "Add": "",
             "experience":
                 "Dr. Haihua Xu is now an assistant professor at Department of Biomedical Engineering, Shenzhen University. He joined Ni's group as a senior research assistant during 2011 to 2014 when his focus was on the spectroscopy study of organic field-effect transistors and photodetectors.",
             "website": ""
@@ -298,7 +355,7 @@
       
         {
             "img_url": "/img/people/wangfeng.jpg",
-            "name": "Feng Wang, Ph.D.",
+            "name": "Feng Wang",
             "title":
                 "Assistant Professor in Linköping University(Sweden) ",
             "Email": "wangfengcuhk@gmail.com",
@@ -309,7 +366,7 @@
         },
         {
             "img_url": "/img/people/chenmengyu.jpg",
-            "name": "Mengyu Chen, Ph.D.",
+            "name": "Mengyu Chen",
             "title":
                 "Postdoc Fellow in University of Bayreuth",
             "Email": " mengyucathy@foxmail.com",
@@ -320,7 +377,7 @@
         },
         {
             "img_url": "/img/people/xiaoting.jpg",
-            "name": "Ting Xiao, Ph.D.",
+            "name": "Ting Xiao",
             "title": "Postdoc Fellow in Hong Kong Polytechnic University",
             "Email": "ting.xiao@polyu.edu.hk",
             "Add": "",
@@ -330,7 +387,7 @@
         },
         {
             "img_url": "/img/people/xuhuihua.jpg",
-            "name": "Huihua Xu, Ph.D.",
+            "name": "Huihua Xu",
             "title": "Research Staff at Sun Yat-sen University",
             "Email": "xuhuihua12@gmail.com",
             "Add": "",
@@ -340,7 +397,7 @@
         },
         {
             "img_url": "/img/people/wuxiaojing.jpg",
-            "name": "Xiaojing Wu, Ph.D.",
+            "name": "Xiaojing Wu",
             "title": "Lecturer, Industry Center, ShenZhen Polytechnic.",
             "Email": "wuxj0308@szpt.edu.cn",
             "Add": "",
@@ -350,7 +407,7 @@
         },
         {
             "img_url": "/img/people/shensuling.jpg",
-            "name": "Suling Shen, Ph.D.",
+            "name": "Suling Shen",
             "title": "Senior Engineer, ShenZhen AnZhi Environment Co., Ltd",
             "Email": "shensuling2006@yeah.net",
             "Add": "",
@@ -360,7 +417,7 @@
         },
         {
             "img_url": "/img/people/dingxiaorong.jpg",
-            "name": "Xiaorong Ding, Ph.D.",
+            "name": "Xiaorong Ding",
             "title": "Postdoctoral Research Assistant, University of Oxford",
             "Email": "xrding.ding@gmail.com",
             "experience":
@@ -369,7 +426,7 @@
         },
         {
             "img_url": "/img/people/chenjizhang.jpg",
-            "name": "Jizhang Chen, Ph.D.",
+            "name": "Jizhang Chen",
             "title": "Professor at Nanjing Forestry University",
             "Email": "jizhang.chen@hotmail.com",
             "Add": "",
@@ -379,7 +436,7 @@
         },
         {
             "img_url": "/img/people/zhangjie.jpg",
-            "name": "Jie Zhang, Ph.D.",
+            "name": "Jie Zhang",
             "title": "Research Associate in Australia",
             "Email": "jiezhang@swin.edu.au",
             "Add": "",
@@ -389,8 +446,8 @@
         },
         {
             "img_url": "/img/people/hancuiping.jpg",
-            "name": "Cuiping Han, Ph.D.",
-            "title": "N/A",
+            "name": "Cuiping Han",
+            "title": "",
             "Email": "hancuiping06@126.com",
             "Project": "",
             "Add": "",

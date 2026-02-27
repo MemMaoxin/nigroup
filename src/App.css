@@ -929,14 +929,22 @@ div#publicationLink:empty {
 
 .card_profile {
     text-align: center;
-    height: 387px;
-    width: 235px;
+    height: 400px;
+    width: 245px;
     background-color: #FFF;
     border-radius: 5px;
     margin: 40px 10px;
     transition: .15s linear;
     -moz-transition: .15s linear;
     box-shadow: 0px 0px 1px #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.AlumniCardItem .card_profile {
+    height: 300px;
+    width: 200px;
 }
 
 #image-container {
@@ -969,7 +977,7 @@ div#publicationLink:empty {
     letter-spacing: 0px;
     line-height: 28px;
     text-align: center;
-    padding: 2px 0 2px 10px;
+    padding: 2px 5px 2px 5px;
 }
 
 #add {
@@ -980,6 +988,7 @@ div#publicationLink:empty {
 
 #project {
     font-size: 14px;
+    margin: 4px;
     color: #666;
     font-family: "Raleway", Helvetica Neue, Georgia;
 }
@@ -1223,7 +1232,7 @@ button#toggleAlumni:hover {
 .container {
     margin: auto;
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
@@ -1235,7 +1244,7 @@ button#toggleAlumni:hover {
     margin: auto;
     width: 15%;
     text-align: center;
-    line-height: 60vh;
+    line-height: 50vh;
     flex-grow: 1;
     background-size: cover;
     background-position: center;
@@ -1286,33 +1295,40 @@ button#toggleAlumni:hover {
 }
 
 .container .box:hover {
-    width: 32%;
+    width: 35%;
     cursor: pointer;
 }
 
-.container .box:nth-child(1) {
-    background-image: url('./img/slider/pic7.png');
+/* .container .box:nth-child(1) {
+    background-image: url('./img/slider/1_NE.png');
     background-position: left;
 }
 
 .container .box:nth-child(2) {
-    background-image: url('./img/slider/pic6.png');
+    background-image: url('./img/slider/2_SA.png');
     background-position: left;
 }
 
 /* .container .box:nth-child(2) {
     background-image: url('./img/slider/pic3.png');
 } */
+.boxImg {
+  width: 95%;
+  height: 100%;
+  display: block;
+  object-fit: cover;       /* 等价 background-size: cover */
+  object-position: left;   /* 等价 background-position: left */
+}
 
-.container .box:nth-child(3) {
-    background-image: url('./img/slider/pic8.png');
+/* .container .box:nth-child(3) {
+    background-image: url('./img/slider/3_NC.png');
     background-position: left;
 }
 
 .container .box:nth-child(4) {
-    background-image: url('./img/slider/pic9.png');
+    background-image: url('./img/slider/4_SA_W.png');
     background-position: left;
-}
+} */ */
 
 /*Contact*/
 
@@ -1520,7 +1536,7 @@ div.sliderImageItem  {
 }
 
 .researchIllustration {
-    width: 850px;
+    width: 1000px;
     margin: 20px auto;
     text-align: center;
     font-size:20px;
