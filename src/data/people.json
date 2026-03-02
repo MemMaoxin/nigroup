@@ -235,15 +235,6 @@
             "website": ""
         },
         {
-            "img_url": "/img/people/zhoushuang.jpg",
-            "name": "Shuang Zhou",
-            "title": "",
-            "Email": "",
-            "Project":"",
-            "experience":"",
-            "website": ""
-        },
-        {
             "img_url": "/img/people/linan.jpg",
             "name": "Nan Li",
             "title": "",
@@ -297,7 +288,6 @@
                 "Jessica graduated from The Chinese University of Hong Kong with a B.Sc. Degree major in Biology, double minor in Public Health and Integrated Business. She is working as a research assistant on driving clinical trials and data for cardiovascular medical devices in hospitals; with her previous project management experiences in start-ups and knowledge in health sector, she is also taking part in the operation team of our mobile health wearable start-up, Intelligent Sensing Limited.",
             "website": ""
         },
-
         {
             "img_url": "/img/people/xujunling.jpg",
             "name": "Junling Xu",
@@ -307,7 +297,15 @@
                 "Junling Xu joined Ni's group as a research assistant in 2013 and now he is a Ph. D. candidate under the supervision of Prof. Ni Zhao and Prof. Ching-Ping Wong. He received B.E. from University of Jinan in 2010 and M.E. from Shandong University in 2012. Prior to CUHK he was a research assistant at City University of Hong Kong. Now he is studying the diffusion/migration process and kinetics of electrode reaction for electrochemical energy storage cells.",
             "website": ""
         },
-        
+        {
+            "img_url": "/img/people/zhoushuang.jpg",
+            "name": "Shuang Zhou",
+            "title": "",
+            "Email": "",
+            "Project":"",
+            "experience":"",
+            "website": ""
+        },
         {
             "img_url": "/img/people/zhouguodong.jpg",
             "name": "Guodong Zhou",

@@ -690,9 +690,12 @@ div#publicationLink:empty {
     
     margin-bottom: -10px;
 }
+#researchIcon {
+    margin-top: 20px;
+}
 
-#publicationIcon, #peopleIcon, #contactIcon, #researchIcon {
-    margin-top: 60px;
+#publicationIcon, #peopleIcon, #contactIcon{
+    margin-top: 50px;
 }
 
 #publicationIcon {
