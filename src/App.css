@@ -1040,7 +1040,7 @@ div#publicationLink:empty {
     line-height: 1em;
 }
 
-.peopleCard {
+.peopleCard{
     width: 93%;
     margin: 0 auto;
     /* padding-left: 30px; */
@@ -1048,6 +1048,21 @@ div#publicationLink:empty {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.peopleCardProfessor{
+    width: 80%;
+    margin: 0 auto;
+    /* padding-left: 30px; */
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.peopleCardProfessor .card_profile {
+    height: 360px;
+    width: 380px;
 }
 
 .peopleCardItem {

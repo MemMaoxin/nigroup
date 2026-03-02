@@ -7,6 +7,7 @@ export default class People extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            professor: require("../data/people.json").professor,
             people: require("../data/people.json").people,
             alumni: require("../data/people.json").alumni,
             show: "flex",
@@ -33,6 +34,12 @@ export default class People extends Component {
                 </h1>
 
                 <div className="people">
+                    <div className="peopleCardProfessor">
+                        {this.state.professor.map(item => (
+                            <PeopleItem key={item.name} item={item} />
+                        ))}
+                    </div>
+
                     <div className="peopleCard">
                         {this.state.people.map(item => (
                             <PeopleItem key={item.name} item={item} />

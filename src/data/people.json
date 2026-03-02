@@ -1,8 +1,8 @@
 {
-    "people": [
+        "professor": [
         {
             "img_url": "/img/people/zhaoni.jpg",
-            "name": "Ni Zhao, Professor.",
+            "name": "Ni Zhao, Professor",
             "title": "Professor of the EE. Dept., CUHK ",
             "Project": "",
             "Email": "nzhao@ee.cuhk.edu.hk",
@@ -13,19 +13,22 @@
         },
         {
             "img_url": "/img/people/caiyuting.jpg",
-            "name": "Yuting Cai, Professor.",
+            "name": "Yuting Cai, Professor",
             "title": "Research Assistant Professor of the EE. Dept., CUHK ",
             "Project": "",
             "Email": "yutingcai@cuhk.edu.hk",
             "Add": "Room 112b, Ho Sin Hang Engineering Building (SHB)",
             "experience":"",
             "website": ""
-        },
+        }
+    ],
+    "people": [
+
         {
             "img_url": "/img/people/yuhui.jpeg",
             "name": "Hui Yu",
             "title": "Postdoc Fellow",
-            "Email": "yuhui@link.cuhk.edu.hk",
+            "Email": "huiyu@cuhk.edu.hk",
             "Project":
                 "Organometal halide perovskite devices",
             "Add": "SHB 206",
@@ -36,9 +39,20 @@
             "img_url": "/img/people/guoyuwei.jpg",
             "name": "Yuwei Guo",
             "title": "Postdoc Fellow",
-            "Email": "ywguo@link.cuhk.edu.hk",
+            "Email": "yuweiguo@cuhk.edu.hk",
             "Project":
                 "Setting up a spectroscopy system to analyze devices",
+            "Add": "SHB 204",
+            "experience":"",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/yangrong.jpg",
+            "name": "Rong Yang",
+            "title": "Postdoc Fellow",
+            "Email": "rongyang@cuhk.edu.hk",
+            "Project":
+                "Novel semiconductor optoelectronic materials and devices",
             "Add": "SHB 204",
             "experience":"",
             "website": ""
@@ -47,7 +61,7 @@
             "img_url": "/img/people/qiushirong.jpg",
             "name": "Shirong Qiu",
             "title": "Postdoc Fellow",
-            "Email": "qiusrong@163.com",
+            "Email": "shirongqiu@cuhk.edu.hk",
             "Project": "Wearable medical devices with applications",
             "Add": "SHB 204",
             "experience":"",
@@ -165,6 +179,15 @@
             "experience":"",
             "website": ""
         },
+        {
+            "img_url": "/img/people/zhaolei.jpg",
+            "name": "Zhao Lei",
+            "title": "",
+            "Email": "",
+            "Project":"",
+            "experience":"",
+            "website": ""
+        },
 
         {
             "img_url": "/img/people/luoningqi.jpg",
@@ -209,6 +232,15 @@
             "Email": "dongyifan@whut.edu.cn",
             "experience":
                 "Yifan Dong graduated from Wuhan University of Technology as a Ph.D. in 2017. She went to University of Wisconsin Madison as a visiting scholar from 2015 to 2017. Now she is working on nanomaterials for energy storage applications.",
+            "website": ""
+        },
+        {
+            "img_url": "/img/people/zhoushuang.jpg",
+            "name": "Shuang Zhou",
+            "title": "",
+            "Email": "",
+            "Project":"",
+            "experience":"",
             "website": ""
         },
         {
