@@ -1,5 +1,5 @@
 {
-        "professor": [
+    "professor": [
         {
             "img_url": "/img/people/zhaoni.jpg",
             "name": "Ni Zhao, Professor",
@@ -10,7 +10,9 @@
             "experience":
                 "Ni Zhao received her Ph.D degree in Physics from the University of Cambridge (UK) in 2008. From 2008-2010 she worked as a postdoctoral research fellow at the Massachusetts Institute of Technology (USA). Her work at MIT involved developing novel hybrid solar cell structures that incorporate colloidal nanocrystal quantum dots with organic and inorganic materials, and using these structures to study electronic processes in solar cells. Prior to MIT she worked in the Optoelectronic Group at the Cavendish Laboratory in Cambridge, UK. Her PhD dissertation was focused on device physics of polymer based field-effect transistors, charge transport mechanism at organic semiconductor/ dielectric interface and nanoscale patterning using inkjet-printing technique. During her M.S Degree, Zhao worked in the Xerox Research Center of Canada on novel semiconducting polymers and their applications in field-effect transistors. Ni Zhao joined the Department of Electronic Engineering at the Chinese University of Hong Kong (CUHK) in December 2010.",
             "website": ""
-        },
+        }
+    ],
+    "professorResearch": [
         {
             "img_url": "/img/people/caiyuting.jpg",
             "name": "Yuting Cai, Professor",

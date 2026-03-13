@@ -8,6 +8,7 @@ export default class People extends Component {
         super(props);
         this.state = {
             professor: require("../data/people.json").professor,
+            professorResearch: require("../data/people.json").professorResearch,
             people: require("../data/people.json").people,
             alumni: require("../data/people.json").alumni,
             show: "flex",
@@ -36,6 +37,11 @@ export default class People extends Component {
                 <div className="people">
                     <div className="peopleCardProfessor">
                         {this.state.professor.map(item => (
+                            <PeopleItem key={item.name} item={item} />
+                        ))}
+                    </div>
+                    <div className="peopleCardProfessor">
+                        {this.state.professorResearch.map(item => (
                             <PeopleItem key={item.name} item={item} />
                         ))}
                     </div>

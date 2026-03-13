@@ -56,7 +56,7 @@ export default class Research extends Component {
                         display: "flex",
                         justifyContent: "center",
                         alignItems: "center",
-                        gap: "16px",
+                        gap: "24px",
                         marginTop: "24px",
                         flexWrap: "wrap",
                         flexDirection: "column"
@@ -66,7 +66,7 @@ export default class Research extends Component {
                         {
                             src: "/img/poster/1.png",
                             alt: "poster1",
-                            title: "Photodetection Technologies"
+                            title: "Light Sensing Technologies"
                         },
                         {
                             src: "/img/poster/2.png",
@@ -76,12 +76,12 @@ export default class Research extends Component {
                         {
                             src: "/img/poster/3.png",
                             alt: "poster3",
-                            title: "Organometal Halide Perovskite-based Optoelectronic and Photonic Devices"
+                            title: "Perovskite Semiconductors and Their Applications"
                         },
                         {
                             src: "/img/poster/4.png",
                             alt: "poster4",
-                            title: "Organic Electrochemical Transceiver-based Therapeutic Wearables"
+                            title: "Integrated Sensing-Therapeutic Wearables"
                         }
                     ].map((p) => (
                         <div
@@ -94,7 +94,7 @@ export default class Research extends Component {
                         >
                             <div
                                 style={{
-                                    width: "80%",
+                                    width: "95%",
                                     border: "2px solid #6c006d",
                                     borderRadius: "18px",
                                     padding: "16px",
