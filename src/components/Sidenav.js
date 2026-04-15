@@ -79,6 +79,14 @@ export default class componentName extends Component {
                     <a onClick={() => this.initScroll("publicationLink")}>
                         Publications
                     </a>
+                    <a
+                        className="external-link"
+                        href={`${process.env.PUBLIC_URL}/Project/index.html`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Project
+                    </a>
                     <a onClick={() => this.initScroll("peopleLink")}>People</a>
                     <a onClick={() => this.initScroll("contactLink")}>
                         Gallery

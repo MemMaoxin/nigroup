@@ -624,6 +624,24 @@ body {
     color: black;
 }
 
+.navbar ul li.external-link a {
+    color: #007bff;
+    font-weight: 600;
+}
+
+.navbar ul li.external-link a:hover {
+    text-decoration: underline;
+}
+
+.side-nav a.external-link {
+    color: #007bff;
+    font-weight: 600;
+}
+
+.side-nav a.external-link:hover {
+    text-decoration: underline;
+}
+
 /* .navbar ul li:hover a {
     color: lightgreen;
 } */

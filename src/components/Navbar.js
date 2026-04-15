@@ -107,6 +107,17 @@ export default class Navbar extends Component {
                                     <b>Gallery</b>
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    className="external-link"
+                                    href={`${process.env.PUBLIC_URL}/Project`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={this.state.navbarStyle}
+                                >
+                                    <b>Project {'>'}</b>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
