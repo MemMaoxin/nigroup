@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ni Group - Research Projects</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --teal: #00b4d8;
+  --purple: #7b2ff7;
+  --green: #06d6a0;
+  --accent1: #e94560;
+  --bg: #0a0a1a;
+  --text: #e8e8f0;
+  --text-dim: #8888a8;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', 'Noto Sans SC', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  backdrop-filter: blur(20px);
+  background: rgba(10,10,26,0.85);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  padding: 0 40px;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 56px;
+  transition: all 0.3s;
+}
+.navbar.scrolled { background: rgba(10,10,26,0.95); box-shadow: 0 4px 30px rgba(0,0,0,0.4); }
+.nav-logo {
+  font-weight: 800; font-size: 18px; letter-spacing: 1px;
+  background: linear-gradient(135deg, var(--teal), var(--purple));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.nav-links { display: flex; gap: 32px; list-style: none; }
+.nav-links a {
+  color: var(--text-dim); text-decoration: none; font-size: 14px; font-weight: 500;
+  transition: color 0.3s; position: relative;
+}
+.nav-links a:hover, .nav-links a.active { color: #fff; }
+.nav-links a::after {
+  content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px;
+  background: var(--teal); transition: width 0.3s;
+}
+.nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+
+/* ===== NAV LEFT GROUP ===== */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-back-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.nav-back-btn:hover {
+  background: rgba(0, 180, 216, 0.12);
+  border-color: rgba(0, 180, 216, 0.35);
+}
+.nav-back-arrow {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1;
+  color: var(--teal);
+  transition: transform 0.3s;
+}
+.nav-back-btn:hover .nav-back-arrow {
+  transform: translateX(-2px);
+  color: #fff;
+}
+
+/* ===== HERO ===== */
+.hero {
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center;
+  padding: 80px 20px 32px;
+  position: relative; overflow: hidden;
+}
+.hero::before {
+  content: ''; position: absolute; top: -50%; left: -50%;
+  width: 200%; height: 200%;
+  background: radial-gradient(ellipse at 30% 50%, rgba(0,180,216,0.06) 0%, transparent 50%),
+              radial-gradient(ellipse at 70% 50%, rgba(123,47,247,0.06) 0%, transparent 50%);
+}
+.hero-content { position: relative; z-index: 1; max-width: 800px; }
+.hero-badge {
+  display: inline-block; padding: 5px 16px; border-radius: 50px;
+  background: rgba(0,180,216,0.1); border: 1px solid rgba(0,180,216,0.2);
+  font-size: 12px; color: var(--teal); font-weight: 500; margin-bottom: 16px;
+  letter-spacing: 2px; text-transform: uppercase;
+}
+.hero h1 {
+  font-size: clamp(26px, 4.5vw, 48px); font-weight: 900;
+  line-height: 1.15; margin-bottom: 12px;
+  background: linear-gradient(135deg, #fff 0%, #ccc 50%, var(--teal) 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.hero p { font-size: 15px; color: var(--text-dim); max-width: 560px; margin: 0 auto; line-height: 1.7; }
+
+/* ===== SECTIONS ===== */
+.section {
+  padding: 64px 40px;
+  max-width: 1200px; margin: 0 auto;
+  position: relative;
+}
+.section:first-of-type { padding-top: 40px; }
+.section-header { text-align: center; margin-bottom: 40px; }
+.section-number {
+  font-size: 12px; font-weight: 700; color: var(--teal);
+  letter-spacing: 3px; text-transform: uppercase; margin-bottom: 10px;
+}
+.section-title {
+  font-size: clamp(24px, 3.5vw, 40px); font-weight: 800;
+  margin-bottom: 12px;
+}
+.section-subtitle {
+  font-size: 15px; color: var(--text-dim); max-width: 815px; margin: 0 auto;
+  line-height: 1.8;
+}
+.divider {
+  width: 60px; height: 3px; margin: 16px auto;
+  background: linear-gradient(90deg, var(--teal), var(--purple));
+  border-radius: 2px;
+}
+
+/* ===== SLIDESHOW ===== */
+.slideshow-wrapper {
+  max-width: 1000px; margin: 0 auto;
+}
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  aspect-ratio: 16/9;
+}
+.slide {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  opacity: 0; transition: opacity 0.8s ease;
+}
+.slide.active { opacity: 1; z-index: 2; }
+
+.slide-image {
+  width: 100%;
+  object-fit: cover; display: block;
+}
+.slide-image-placeholder {
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 12px;
+}
+.slide-image-placeholder .placeholder-icon { font-size: 48px; opacity: 0.3; }
+.slide-image-placeholder .placeholder-text {
+  font-size: 12px; letter-spacing: 1px; text-transform: uppercase;
+  opacity: 0.4;
+}
+
+/* Caption overlay on image */
+.slide-caption {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.92));
+  padding: 36px 32px 20px;
+  z-index: 3;
+}
+.slide-caption-tag {
+  display: inline-block; padding: 3px 10px; border-radius: 4px;
+  font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.slide-caption-tag.ne { background: rgba(233,69,96,0.25); color: var(--accent1); }
+.slide-caption-tag.ring { background: rgba(6,214,160,0.25); color: var(--green); }
+.slide-caption h3 {
+  font-size: clamp(16px, 2.2vw, 22px); font-weight: 700;
+  margin-bottom: 6px; line-height: 1.3;
+}
+.slide-caption p {
+  font-size: clamp(12px, 1.3vw, 14px); color: rgba(255,255,255,0.6);
+  line-height: 1.6; max-width: 75%;
+}
+
+/* Counter */
+.slide-counter {
+  position: absolute; top: 16px; right: 20px; z-index: 10;
+  font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.5);
+  background: rgba(0,0,0,0.4); padding: 4px 12px; border-radius: 20px;
+  backdrop-filter: blur(8px);
+}
+
+/* Progress bar */
+.slide-progress {
+  position: absolute; top: 0; left: 0; height: 3px; z-index: 10;
+  background: linear-gradient(90deg, var(--teal), var(--purple));
+  transition: width 0.1s linear;
+}
+
+/* Arrows */
+.slide-arrow {
+  position: absolute; top: 45%; transform: translateY(-50%);
+  z-index: 10; width: 40px; height: 40px; border-radius: 50%;
+  background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.12);
+  color: #fff; font-size: 18px; cursor: pointer; transition: all 0.3s;
+  display: flex; align-items: center; justify-content: center;
+  backdrop-filter: blur(10px);
+  opacity: 0;
+}
+.slideshow-container:hover .slide-arrow { opacity: 1; }
+.slide-arrow:hover { background: rgba(255,255,255,0.15); }
+.slide-arrow.prev { left: 16px; }
+.slide-arrow.next { right: 16px; }
+
+/* ===== DOTS BAR — below the slideshow ===== */
+.slide-dots-bar {
+  background: rgba(0,0,0,0.92);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-top: none;
+  border-radius: 0 0 16px 16px;
+  padding: 14px 24px;
+  display: flex; align-items: center; justify-content: center;
+  gap: 10px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+.slide-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: rgba(255,255,255,0.2); cursor: pointer;
+  transition: all 0.35s ease; border: none;
+}
+.slide-dot:hover { background: rgba(255,255,255,0.4); }
+.slide-dot.active {
+  background: var(--teal);
+  width: 28px; border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,180,216,0.4);
+}
+
+/* ===== VIDEO SECTION ===== */
+.video-container {
+  max-width: 1000px; margin: 0 auto;
+  border-radius: 16px; overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  position: relative;
+  aspect-ratio: 16/9;
+  background: #111;
+}
+.video-placeholder {
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  background: linear-gradient(135deg, #0a192f, #112240, #1a365d);
+  position: relative; cursor: pointer; overflow: hidden;
+}
+.video-placeholder::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(circle at center, rgba(0,180,216,0.1), transparent 70%);
+}
+.wave-container {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center; gap: 3px;
+  opacity: 0.3;
+}
+.wave-bar {
+  width: 3px; border-radius: 2px;
+  animation: waveAnim 1.2s ease-in-out infinite;
+}
+@keyframes waveAnim {
+  0%, 100% { height: 20px; }
+  50% { height: 60px; }
+}
+.play-button {
+  position: relative; z-index: 2;
+  width: 80px; height: 80px; border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  border: 2px solid rgba(255,255,255,0.3);
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.3s;
+  backdrop-filter: blur(10px);
+}
+.play-button:hover {
+  background: rgba(0,180,216,0.3); border-color: var(--teal);
+  transform: scale(1.1);
+}
+.play-button svg { width: 30px; height: 30px; fill: #fff; margin-left: 4px; }
+.video-label {
+  position: relative; z-index: 2;
+  margin-top: 20px; font-size: 14px; color: var(--text-dim);
+  letter-spacing: 1px;
+}
+.ppg-wave-svg {
+  position: absolute; bottom: 15%; left: 50%; transform: translateX(-50%);
+  width: 80%; opacity: 0.2;
+}
+.ppg-wave-path {
+  stroke: var(--green); stroke-width: 2; fill: none;
+  stroke-dasharray: 1000; stroke-dashoffset: 1000;
+  animation: drawWave 4s linear infinite;
+}
+@keyframes drawWave { to { stroke-dashoffset: 0; } }
+.video-overlay {
+  position: absolute; inset: 0; z-index: 20;
+  background: rgba(0,0,0,0.95);
+  display: none; align-items: center; justify-content: center;
+  flex-direction: column;
+}
+.video-overlay.show { display: flex; }
+.video-overlay video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.video-close {
+  position: absolute; top: 16px; right: 16px;
+  background: rgba(255,255,255,0.1); border: none;
+  color: #fff; width: 36px; height: 36px; border-radius: 50%;
+  font-size: 18px; cursor: pointer; z-index: 25;
+  transition: background 0.3s;
+}
+.video-close:hover { background: rgba(255,255,255,0.25); }
+
+/* ===== FOOTER ===== */
+.footer {
+  text-align: center; padding: 48px 20px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  color: var(--text-dim); font-size: 13px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .navbar { padding: 0 16px; }
+  .nav-links { gap: 14px; }
+  .nav-links a { font-size: 11px; }
+  .section { padding: 48px 16px; }
+  .hero { padding: 68px 16px 24px; }
+  .slide-caption { padding: 28px 20px 16px; }
+  .slide-caption p { max-width: 100%; }
+  .slide-arrow { width: 32px; height: 32px; font-size: 14px; }
+  .slide-counter { top: 10px; right: 12px; font-size: 11px; }
+  .slide-dots-bar { padding: 10px 16px; gap: 8px; }
+}
+
+/* ===== ANIMATIONS ===== */
+.fade-in {
+  opacity: 0; transform: translateY(30px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+
+.ph-1 { background: linear-gradient(135deg, #1a1a3e, #302b63); }
+.ph-2 { background: linear-gradient(135deg, #0d1b2a, #1b263b); }
+.ph-3 { background: linear-gradient(135deg, #10002b, #3c096c); }
+.ph-4 { background: linear-gradient(135deg, #03071e, #370617); }
+.ph-5 { background: linear-gradient(135deg, #0f0c29, #24243e); }
+.ph-6 { background: linear-gradient(135deg, #004e64, #007a8c); }
+.ph-7 { background: linear-gradient(135deg, #1b4332, #2d6a4f); }
+.ph-8 { background: linear-gradient(135deg, #3a0ca3, #4361ee); }
+.ph-9 { background: linear-gradient(135deg, #312244, #6b2fa0); }
+.ph-10 { background: linear-gradient(135deg, #1a1a2e, #0f3460); }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-left">
+    <a href="../" class="nav-back-btn" title="Back to Main Site">
+      <span class="nav-back-arrow">‹</span>
+    </a>
+    <div class="nav-logo">⬡ Ni Group</div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#hero" class="active">Home</a></li>
+    <li><a href="#ne-section">NE Spectrometer</a></li>
+    <li><a href="#mwppg-section">MWPPG</a></li>
+    <li><a href="#ring-section">Ring & Earset</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <div class="hero-badge">Ni Group · Research Showcase</div>
+    <h1>Next-Gen Wearable Sensing & Optical Technologies</h1>
+    <p>From microsized spectrometers to smart rings — exploring the frontier of light-based health monitoring and miniaturized photonics.</p>
+  </div>
+</section>
+
+<!-- ======================== PROJECT 1: NE ======================== -->
+<section class="section" id="ne-section">
+  <div class="section-header fade-in">
+    <div class="section-number">Project 01</div>
+    <h2 class="section-title">Micro-Sized Optical Spectrometer</h2>
+    <div class="divider"></div>
+    <p class="section-subtitle">
+      A revolutionary approach to spectroscopy — using organic photodetectors with electrically tunable spectral response to build a spectrometer smaller than a grain of rice.
+    </p>
+  </div>
+
+  <div class="slideshow-wrapper fade-in">
+    <div class="slideshow-container" id="ne-slideshow">
+      <div class="slide-progress" id="ne-progress"></div>
+      <div class="slide-counter" id="ne-counter">1 / 5</div>
+
+      <div class="slide active">
+        <img class="slide-image" src="p1_1.png" alt="Portable/wearable applications calling for miniaturized spectrometers">
+        <div class="slide-caption">
+          <h3>Portable/wearable applications calling for miniaturized spectrometers</h3>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-image" src="p1_2.png" alt="Miniaturization of optical spectrometers">
+        <div class="slide-caption">
+          <h3>Miniaturization of optical spectrometers</h3>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-image" src="p1_3.png" alt="Photomultiplication-type organic photodetectors (PM-OPDs)">
+        <div class="slide-caption">
+          <h3>Photomultiplication-type organic photodetectors (PM-OPDs)</h3>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-image" src="p1_4.png" alt="Device design for the microspectrometer">
+        <div class="slide-caption">
+          <h3>Device design for the microspectrometer</h3>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-image" src="p1_5.png" alt="Spectroscopic application and hyperspectral imaging">
+        <div class="slide-caption">
+          <h3>Spectroscopic application and hyperspectral imaging</h3>
+        </div>
+      </div>
+
+      <button class="slide-arrow prev" onclick="changeSlide('ne', -1)">‹</button>
+      <button class="slide-arrow next" onclick="changeSlide('ne', 1)">›</button>
+    </div>
+    <div class="slide-dots-bar" id="ne-dots"></div>
+  </div>
+</section>
+
+<!-- ======================== PROJECT 2: MWPPG ======================== -->
+<section class="section" id="mwppg-section">
+  <div class="section-header fade-in">
+    <div class="section-number">Project 02</div>
+    <h2 class="section-title">Multi-Wavelength PPG (MWPPG)</h2>
+    <div class="divider"></div>
+    <p class="section-subtitle">
+      The realization of the micro-spectrometer can further enhance the multi-wavelength photoplethysmography-based cardiovascular/blood pressure monitoring, a technology also invented by the group. This technology captures rich vascular signals by illuminating tissue with multiple colors of light simultaneously.
+    </p>
+  </div>
+
+  <div class="video-container fade-in" id="mwppg-video">
+    <div class="video-placeholder" id="videoPlaceholder" onclick="showVideoOverlay()">
+      <video id="videoThumb" src="mwppg.mp4" muted playsinline preload="metadata"
+             style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;pointer-events:none;"></video>
+      <div class="wave-container" id="waveContainer"></div>
+      <svg class="ppg-wave-svg" viewBox="0 0 600 100">
+        <path class="ppg-wave-path" d="M0,50 Q25,50 50,50 T75,50 T100,48 L105,20 L110,70 L115,45 L120,50 Q145,50 170,50 T195,50 T220,50 T245,48 L250,20 L255,70 L260,45 L265,50 Q290,50 315,50 T340,50 T365,50 T390,48 L395,20 L400,70 L405,45 L410,50 Q435,50 460,50 T485,50 T510,50 T535,48 L540,20 L545,70 L550,45 L555,50 Q575,50 600,50"/>
+      </svg>
+      <div class="play-button">
+        <svg viewBox="0 0 24 24"><polygon points="8,5 19,12 8,19"/></svg>
+      </div>
+    </div>
+
+    <!-- 视频播放层 -->
+    <div class="video-overlay" id="videoOverlay">
+      <button class="video-close" onclick="hideVideoOverlay()">✕</button>
+      <video id="mwppgVideo" src="mwppg.mp4" controls playsinline
+             style="width:100%;height:100%;object-fit:contain;">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== PROJECT 3: RING & EARSET ======================== -->
+<section class="section" id="ring-section">
+  <div class="section-header fade-in">
+    <div class="section-number">Project 03</div>
+    <h2 class="section-title">Smart Ring & Earset</h2>
+    <div class="divider"></div>
+    <p class="section-subtitle">
+      The technology has been successfully transferred into wearable products, including smart rings and ear-worn devices, and validated on hundreds of patients. By integrating cutting-edge optical sensing into comfortable, unobtrusive form factors, these devices bring continuous health monitoring seamlessly into everyday accessories.
+    </p>
+  </div>
+
+  <div class="slideshow-wrapper fade-in">
+    <div class="slideshow-container" id="ring-slideshow">
+      <div class="slide-progress" id="ring-progress"></div>
+      <div class="slide-counter" id="ring-counter">1 / 4</div>
+
+      <div class="slide active">
+        <img class="slide-image" src="p3_1.png" alt="MWPPG and ECG signals">
+        <div class="slide-caption">
+          <h3>MWPPG and ECG signals</h3>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-image" src="p3_2.jpg" alt="Smart ring for multiparameter physiological signal monitoring">
+        <div class="slide-caption">
+          <h3>Smart ring for multiparameter physiological signal monitoring</h3>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-image" src="p3_3.png" alt="MSMW-EarSense platform and the PPG sensor layout">
+        <div class="slide-caption">
+          <h3>MSMW-EarSense platform and the PPG sensor layout</h3>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-image" src="p3_4.png" alt="Estimation performance: 21% error reduction than reference method overall">
+        <div class="slide-caption">
+          <h3>Estimation performance: 21% error reduction than reference method overall</h3>
+        </div>
+      </div>
+
+      <button class="slide-arrow prev" onclick="changeSlide('ring', -1)">‹</button>
+      <button class="slide-arrow next" onclick="changeSlide('ring', 1)">›</button>
+    </div>
+    <div class="slide-dots-bar" id="ring-dots"></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p style="margin-bottom:8px;">
+    <strong style="color:#fff;">Ni Group</strong> — Advancing light-based sensing for human health
+  </p>
+  <p>© 2026 Ni Group · All Rights Reserved</p>
+</footer>
+
+<script>
+const slideshows = {};
+
+function initSlideshow(id, autoInterval = 6000) {
+  const container = document.getElementById(id + '-slideshow');
+  const slides = container.querySelectorAll('.slide');
+  const dotsContainer = document.getElementById(id + '-dots');
+  const progressBar = document.getElementById(id + '-progress');
+  const counter = document.getElementById(id + '-counter');
+
+  slides.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'slide-dot' + (i === 0 ? ' active' : '');
+    dot.onclick = () => { goToSlide(id, i); resetAuto(id); };
+    dotsContainer.appendChild(dot);
+  });
+
+  slideshows[id] = {
+    container, slides, dotsContainer, progressBar, counter,
+    current: 0, total: slides.length,
+    interval: null, progressInterval: null,
+    autoInterval, progressTime: 0
+  };
+
+  startAuto(id);
+}
+
+function goToSlide(id, index) {
+  const ss = slideshows[id];
+  ss.slides[ss.current].classList.remove('active');
+  ss.dotsContainer.children[ss.current].classList.remove('active');
+
+  ss.current = (index + ss.total) % ss.total;
+  ss.slides[ss.current].classList.add('active');
+  ss.dotsContainer.children[ss.current].classList.add('active');
+  ss.counter.textContent = (ss.current + 1) + ' / ' + ss.total;
+
+  ss.progressTime = 0;
+  ss.progressBar.style.width = '0%';
+}
+
+function changeSlide(id, dir) {
+  const ss = slideshows[id];
+  goToSlide(id, ss.current + dir);
+  resetAuto(id);
+}
+
+function startAuto(id) {
+  const ss = slideshows[id];
+  ss.progressTime = 0;
+  ss.progressInterval = setInterval(() => {
+    ss.progressTime += 50;
+    ss.progressBar.style.width = (ss.progressTime / ss.autoInterval * 100) + '%';
+  }, 50);
+  ss.interval = setInterval(() => {
+    goToSlide(id, ss.current + 1);
+    ss.progressTime = 0;
+  }, ss.autoInterval);
+}
+
+function resetAuto(id) {
+  const ss = slideshows[id];
+  clearInterval(ss.interval);
+  clearInterval(ss.progressInterval);
+  startAuto(id);
+}
+
+/* ===== 视频播放控制 ===== */
+function showVideoOverlay() {
+  const overlay = document.getElementById('videoOverlay');
+  const video = document.getElementById('mwppgVideo');
+  overlay.classList.add('show');
+  video.play();
+}
+
+function hideVideoOverlay() {
+  const overlay = document.getElementById('videoOverlay');
+  const video = document.getElementById('mwppgVideo');
+  video.pause();
+  overlay.classList.remove('show');
+}
+
+function initWaveBars() {
+  const container = document.getElementById('waveContainer');
+  const colors = ['#e94560', '#06d6a0', '#00b4d8', '#7b2ff7', '#f5a623'];
+  for (let i = 0; i < 60; i++) {
+    const bar = document.createElement('div');
+    bar.className = 'wave-bar';
+    bar.style.animationDelay = (i * 0.05) + 's';
+    bar.style.height = '20px';
+    bar.style.background = colors[i % colors.length];
+    container.appendChild(bar);
+  }
+}
+
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+  const sections = ['hero', 'ne-section', 'mwppg-section', 'ring-section'];
+  const links = document.querySelectorAll('.nav-links a');
+  let current = '';
+  sections.forEach(id => {
+    const el = document.getElementById(id);
+    if (el && window.scrollY >= el.offsetTop - 200) current = id;
+  });
+  links.forEach(link => {
+    link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+  });
+});
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add('visible');
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+document.addEventListener('DOMContentLoaded', () => {
+  initSlideshow('ne', 7000);
+  initSlideshow('ring', 7000);
+  initWaveBars();
+
+  const videoThumb = document.getElementById('videoThumb');
+  if (videoThumb) {
+    const hideWave = () => {
+      document.getElementById('waveContainer').style.display = 'none';
+      document.querySelector('.ppg-wave-svg').style.display = 'none';
+    };
+    videoThumb.addEventListener('loadeddata', hideWave);
+    videoThumb.addEventListener('error', () => { videoThumb.style.display = 'none'; });
+  }
+});
+</script>
+</body>
+</html>
