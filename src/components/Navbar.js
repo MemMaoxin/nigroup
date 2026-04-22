@@ -110,7 +110,7 @@ export default class Navbar extends Component {
                             <li>
                                 <a
                                     className="external-link"
-                                    href={`${process.env.PUBLIC_URL}/Project`}
+                                    href={`${process.env.PUBLIC_URL}/project`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     style={this.state.navbarStyle}
