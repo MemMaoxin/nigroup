@@ -81,7 +81,7 @@ export default class componentName extends Component {
                     </a>
                     <a
                         className="external-link"
-                        href={`${process.env.PUBLIC_URL}/Project/index.html`}
+                        href={`${process.env.PUBLIC_URL}/project/index.html`}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
